@@ -1,0 +1,263 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+.font {
+  position: absolute;
+  top: 0.15625rem;
+  left: -0.234375rem;
+  z-index: 1;
+}
+.font img {
+  width: 2.34375rem;
+}
+.fenxiang {
+  padding-left: 0.15625rem;
+  width: 1.2890625rem;
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 60px;
+  right: 150px;
+  z-index: 1;
+  font-size: 0.125rem;
+  border-radius: 0.15625rem;
+}
+.fenxiang i {
+  display: block;
+  width: 1px;
+  height: 0.1015625rem;
+  background: white;
+  position: absolute;
+  top: 0.1015625rem;
+  left: 0.46875rem;
+}
+.fenxiang .i1 {
+  position: absolute;
+  left: 0.8828125rem;
+}
+.fenxiang li {
+  float: left;
+  margin-right: 0.15625rem;
+}
+.fenxiang li a {
+  color: white;
+}
+.content {
+  width: 100%;
+  height: 95vh;
+  background: url("../img/bg1_dfa2fa3.jpg") no-repeat;
+  position: relative;
+  top: 0.359375rem;
+  overflow: hidden;
+}
+.content .hcjm {
+  position: absolute;
+  bottom: 0.15625rem;
+  right: 420px;
+}
+.content .hcjm img {
+  width: 6.2421875rem;
+}
+.content .fylm {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 0.625rem;
+}
+.content .gdsj {
+  position: absolute;
+  bottom: 0.8359375rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 2.046875rem;
+  height: 0.2421875rem;
+  z-index: 1;
+  animation: zd infinite 3s;
+}
+.content .gdsj i {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url('../img/mouse_afff2c2.png') no-repeat;
+}
+.content .gdsj p {
+  color: white;
+  font-size: 0.125rem;
+  margin-left: 0.03125rem;
+}
+@keyframes zd {
+  0% {
+    bottom: 0.8359375rem;
+  }
+  55% {
+    bottom: 0.9921875rem;
+  }
+  75% {
+    bottom: 0.9140625rem;
+  }
+  100% {
+    bottom: 0.8359375rem;
+  }
+}
+.content2 {
+  width: 100%;
+  height: 95vh;
+  top: 0.359375rem;
+  overflow: hidden;
+  background: url('../img/bg2_f2e2436.jpg') no-repeat;
+  position: relative;
+  display: none;
+}
+.content2 .block {
+  display: block;
+}
+.content2 .hcjm {
+  display: block;
+  width: 3.75rem;
+  height: 1.5625rem;
+  background: url('../img/slogan2_2d67c39.png') no-repeat;
+  position: absolute;
+  left: 35%;
+  top: 0.2734375rem;
+}
+.content2 .left ul {
+  height: 100%;
+  overflow: hidden;
+}
+.content2 .left li {
+  float: left;
+  height: 8.4375rem;
+  width: 0.53125rem;
+  text-align: center;
+  background: rgba(238, 204, 150, 0.15);
+  top: 0rem;
+  margin-left: 0.234375rem;
+  position: relative;
+  overflow: hidden;
+}
+.content2 .left li a {
+  display: block;
+  position: relative;
+  width: 0.53125rem;
+  height: 4.4609375rem;
+  top: 1.09375rem;
+  z-index: 3;
+}
+.content2 .left li a img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.content2 .left li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.content2 .left li:nth-child(1) {
+  width: 1.5703125rem;
+  height: 8.4375rem;
+}
+.content2 .left li:nth-child(1) img {
+  display: block;
+}
+.content2 .left li:nth-child(4) {
+  float: right;
+  margin-right: 0.15625rem;
+}
+.content2 .left li:nth-child(5) {
+  float: right;
+}
+.content2 .title {
+  position: absolute;
+  width: 6.25rem;
+  height: 4.53125rem;
+  left: 3.90625rem;
+  top: 2.109375rem;
+}
+.content2 .box {
+  width: 4.9609375rem;
+  height: 2.8671875rem;
+  border: 0.0078125rem solid white;
+  top: 0.78125rem;
+  transform: translate(-50%);
+  left: 50%;
+  position: relative;
+  border-radius: 0.046875rem;
+  z-index: 1;
+}
+.content2 .box img {
+  width: 4.875rem;
+  height: 2.78125rem;
+}
+.content2 .box video {
+  width: 4.875rem;
+  height: 2.78125rem;
+}
+.content2 .zhanshi {
+  width: 4.875rem;
+  height: 2.78125rem;
+  background-color: red;
+  position: absolute;
+  top: 0.0390625rem;
+  transform: translate(-50%);
+  left: 50%;
+  position: relative;
+  z-index: 1;
+}
+.content2 .zhanshi div {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.content2 .zhanshi div:nth-child(1) {
+  display: block;
+}
+.content2 .juqing {
+  position: absolute;
+  top: -0.265625rem;
+  left: 1.84375rem;
+}
+.content2 .juqing div {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.content2 .juqing div img {
+  width: 2.015625rem;
+}
+.content2 .juqing div:nth-child(1) {
+  display: block;
+}
+.content2 .ziyang {
+  width: 4.6875rem;
+  height: 1.5625rem;
+  background: url('../img/downTips_d0881e4.png') no-repeat;
+  background-size: 100%;
+  position: relative;
+  top: 0.78125rem;
+  left: 0.6484375rem;
+  text-align: center;
+}
+.content2 .ziyang p {
+  position: absolute;
+  font-size: 0.15625rem;
+  font-weight: 700;
+  color: white;
+  top: 0.2578125rem;
+  left: 1.703125rem;
+  display: none;
+}
+.content2 .ziyang p:nth-child(1) {
+  display: block;
+}
+.content2 .ziyang p:nth-child(5) {
+  left: 2.0546875rem;
+}

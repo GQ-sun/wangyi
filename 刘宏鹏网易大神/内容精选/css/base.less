@@ -1,0 +1,358 @@
+@size: 1920/15;
+
+* {
+    box-sizing: border-box;
+    font-size: 16rem/@size;
+}
+/* CSS*/
+html,
+body {
+    /* width: 1366rem/@size; */
+    overflow-x: hidden; overflow-y: auto;
+}
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,i,strong,em {
+    margin: 0;
+    padding: 0;
+    font-size: 14rem/@size;
+    color: #999999;
+    list-style: none;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #999999;
+}
+a:hover {
+    color: #000;
+}
+i,s,b,strong,em {
+    text-decoration: none;
+    font-style: normal;
+}
+input,img {
+    vertical-align: middle;
+    border: 0 none;
+    outline-style: none;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.w {
+    width: 1200rem/@size;
+    margin: 0 auto;
+}
+::-moz-selection {
+    background:#1EACDF;
+    color:#fff
+    }
+    
+    ::-webkit-selection {
+    background:#1EACDF;
+    color:#fff
+    }
+    .autoWidth {
+        margin: 0 auto;
+        min-width: 1000rem/@size;
+        max-width: 1200rem/@size
+    }
+    .auto {
+        margin: 0 auto;
+        min-width: 1000rem/@size;
+        max-width: 1200rem/@size
+    }
+    
+    @media screen and (max-width:1233rem/@size) {
+    .auto {
+        padding-left: 10rem/@size
+    }
+    }
+    .clearfix:after, .clearfix:before {
+        display: table;
+        line-height: 0;
+        content: ""
+    }
+    .clearfix:after {
+        clear: both
+    }
+    .clear-float {
+        clear: both
+    }
+    .footer {
+        background-color: #009fd9;
+        font-family: "Microsoft Yahei"
+    }
+    .footer-floor1 {
+        width: 100%;
+        padding: 36rem/@size 0 60rem/@size
+    }
+    .footer-list {
+        width: 69%;
+        height: 100%;
+        float: left
+    }
+    .footer-list ul {
+        float: left;
+        margin-right: 13%
+    }
+    .footer-list .flist-4 {
+        margin-right: 0
+    }
+    .footer-list li {
+        line-height: 32rem/@size
+    }
+    .footer-list li a {
+        color: #b6e2f2;
+        font-size: 12rem/@size;
+        text-decoration: none
+    }
+    .footer-list li a:hover {
+        text-decoration: underline;
+        color: #fff
+    }
+    .footer-list .flist-title {
+        font-size: 16rem/@size;
+        color: #fff;
+        margin-bottom: 15rem/@size
+    }
+    .footer-floor2 {
+        width: 100%;
+        border-top: 1rem/@size solid #4cc3ed;
+        padding: 20rem/@size 0;
+        text-align: center
+    }
+    .footer-floor2 p {
+        text-align: center;
+        color: #b6e2f2;
+        font-size: 12rem/@size;
+        line-height: 30rem/@size
+    }
+    .footer-floor2 p span {
+        font-family: PingFangSC-Light, 'helvetica neue', 'hiragino sans gb', tahoma, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif
+    }
+    .footer-floor2 a {
+        color: #b6e2f2
+    }
+    .footer-floor2 a:hover {
+        color: #a8d0e0;
+        text-decoration: underline
+    }
+    .foot-link {
+        margin: 0 15rem/@size;
+        text-decoration: none;
+        color: #b6e2f2
+    }
+    .foot-link:hover {
+        text-decoration: underline
+    }
+    .footer-right {
+        width: 300rem/@size;
+        float: right
+    }
+    .telephone {
+        width: 100%;
+        height: 32rem/@size;
+        line-height: 32rem/@size;
+        color: #fff
+    }
+    .telephone span {
+        display: inline-block;
+        width: 32rem/@size;
+        height: 32rem/@size;
+        float: left;
+        background: url(../images/phone_32rem/@size.png);
+        margin-left: 16%
+    }
+    .telephone .tel-number {
+        font-size: 30rem/@size;
+        font-weight: 400;
+        text-align: right
+    }
+    .official-plat {
+        width: 100%;
+        height: 100%;
+        margin-top: 20rem/@size;
+        position: relative
+    }
+    .official-plat ul {
+        float: right;
+        margin-top: 7rem/@size
+    }
+    .official-plat ul li span {
+        display: inline-block;
+        width: 32rem/@size;
+        height: 32rem/@size;
+        background: url(../images/plat_icon.png) no-repeat 0 0;
+        line-height: 32rem/@size;
+        float: left;
+        margin-right: 12rem/@size
+    }
+    .official-plat ul li .weibo-logo {
+        background: url(../images/plat_icon.png) no-repeat -32rem/@size 0
+    }
+    .official-plat ul li .qq-logo {
+        background: url(../images/plat_icon.png) no-repeat -64rem/@size 0
+    }
+    .official-plat ul li {
+        height: 45rem/@size
+    }
+    .official-plat ul a {
+        display: inline-block;
+        height: 32rem/@size;
+        width: 100%;
+        line-height: 32rem/@size;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12rem/@size
+    }
+    .official-plat>p {
+        display: inline-block;
+        width: 132rem/@size;
+        height: 132rem/@size;
+        border: 1rem/@size solid #ddd;
+        background-color: #fff
+    }
+    .official-plat .weixin {
+        position: absolute;
+        top: 0;
+        left: 10rem/@size;
+        background-image: url(../images/plat_qrcode.png);
+        background-repeat: no-repeat;
+        background-position: 0 0
+    }
+    .official-plat .weibo {
+        position: absolute;
+        top: 0;
+        left: 10rem/@size;
+        background-image: url(../images/plat_qrcode.png);
+        background-repeat: no-repeat;
+        background-position: -132rem/@size 0;
+        display: none
+    }
+    #wx-corner {
+        border: 10rem/@size solid transparent;
+        border-left: 10rem/@size solid #fff;
+        position: absolute;
+        top: 12rem/@size;
+        right: -20rem/@size;
+        z-index: 10
+    }
+    #wb-corner {
+        border: 10rem/@size solid transparent;
+        border-left: 10rem/@size solid #fff;
+        position: absolute;
+        top: 58rem/@size;
+        right: -20rem/@size;
+        z-index: 10
+    }
+    .five-superiority {
+        width: 100%;
+        border-bottom: 1rem/@size solid #27aede;
+        padding: 10rem/@size 0 20rem/@size
+    }
+    .five-superiority-list li {
+        float: left;
+        width: 20%;
+        height: 36rem/@size;
+        text-align: center;
+        border-left: 1rem/@size solid #27aede
+    }
+    .five-superiority-list li:first-child {
+        border-left: none
+    }
+    .five-superiority-list li a {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 36rem/@size;
+        line-height: 36rem/@size;
+        background: no-repeat 2% center;
+        text-indent: 2em;
+        color: #fff;
+        font-size: 16rem/@size
+    }
+    .five-superiority-list li a:hover {
+        color: #bfe7f5
+    }
+    .five-superiority-list li a.superiority-text {
+        text-indent: 4em
+    }
+    .superiority-icon {
+        position: absolute;
+        width: 40rem/@size;
+        height: 40rem/@size;
+        left: 10%;
+        background-repeat: no-repeat;
+        background-image: url(../images/footer_youshi.png)
+    }
+    .compensate_ico .superiority-icon {
+        background-position: 0 0
+    }
+    .compensate_ico:hover .superiority-icon {
+        background-position: 0 -50rem/@size
+    }
+    .retreat_ico .superiority-icon {
+        background-position: 0 -100rem/@size
+    }
+    .retreat_ico:hover .superiority-icon {
+        background-position: 0 -150rem/@size
+    }
+    .technology_ico .superiority-icon {
+        background-position: 0 -200rem/@size
+    }
+    .technology_ico:hover .superiority-icon {
+        background-position: 0 -250rem/@size
+    }
+    .prepare_ico .superiority-icon {
+        background-position: 0 -300rem/@size
+    }
+    .prepare_ico:hover .superiority-icon {
+        background-position: 0 -350rem/@size
+    }
+    .service_ico .superiority-icon {
+        background-position: 0 -400rem/@size
+    }
+    .service_ico:hover .superiority-icon {
+        background-position: 0 -450rem/@size
+    }
+    .marquee-box {
+        overflow: hidden;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+    .marquee {
+        width: 8000%;
+        height: 60rem/@size
+    }
+    .wave-list-box {
+        float: left
+    }
+    .wave-list-box ul {
+        float: left;
+        height: 60rem/@size;
+        overflow: hidden;
+        zoom: 1
+    }
+    .wave-list-box ul li {
+        height: 60rem/@size;
+        width: 100%;
+        float: left;
+        line-height: 30rem/@size;
+        list-style: none
+    }
+    .wave-box {
+        position: relative;
+        height: 60rem/@size;
+        background: #e6edf1;
+    }

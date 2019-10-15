@@ -1,0 +1,110 @@
+.index-recruit {
+  width: 12.73792094rem;
+  margin: 1.64714495rem auto;
+}
+.index-recruit .item-detail {
+  text-align: center;
+}
+.index-recruit .item-detail .anma {
+  display: block;
+  widows: 100%;
+  height: 0.14275256rem;
+  margin-bottom: 0.10980966rem;
+  background: url(../img/v_h3_job.png) no-repeat center;
+}
+.index-recruit .item-detail h2 {
+  font-size: 0.46120059rem;
+  font-weight: 700;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.seven {
+  margin-left: 1.64714495rem;
+  margin-top: 0.54904832rem;
+  position: relative;
+}
+.seven p {
+  font-size: 0.19765739rem;
+  font-weight: 700;
+  color: #0a1331;
+  position: absolute;
+  bottom: -0.32942899rem;
+  left: 0.38433382rem;
+}
+.seven .seven_box {
+  width: 1.2079063rem;
+  height: 1.2079063rem;
+  border-radius: 50%;
+  background-color: #42b8ea;
+  margin-right: 0.21961933rem;
+  border: 0.02196193rem solid rgba(2, 5, 5, 0);
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+.seven .seven_box div {
+  width: 0.68081991rem;
+  height: 0.65885798rem;
+  position: absolute;
+  top: 0.27452416rem;
+  left: 0.32942899rem;
+}
+.seven .seven_box .one {
+  background: url(../img/category_icon.png) no-repeat -0.42825769rem -2.20717423rem;
+  background-size: 1.33967789rem;
+}
+.seven .seven_box .two {
+  background: url(../img/category_icon.png) no-repeat -0.32942899rem -3.07467057rem;
+  background-size: 1.33967789rem;
+  position: absolute;
+  top: 0.27452416rem;
+  left: 0.26354319rem;
+}
+.seven .seven_box .three {
+  background: url(../img/category_icon.png) no-repeat -0.42825769rem -3.87628111rem;
+  background-size: 1.33967789rem;
+}
+.seven .seven_box .four {
+  background: url(../img/category_icon.png) no-repeat -0.42825769rem -4.72181552rem;
+  background-size: 1.33967789rem;
+}
+.seven .seven_box .five {
+  background: url(../img/category_icon.png) no-repeat -0.42825769rem -5.49048316rem;
+  background-size: 1.33967789rem;
+}
+.seven .seven_box .six {
+  background: url(../img/category_icon.png) no-repeat -0.36237189rem -6.36896047rem;
+  background-size: 1.33967789rem;
+}
+.seven .seven_box .seven1 {
+  background: url(../img/category_icon.png) no-repeat -0.32942899rem -7.30234261rem;
+  background-size: 1.33967789rem;
+  position: absolute;
+  top: 0.27452416rem;
+  left: 0.24158126rem;
+}
+.seven .div2 {
+  background-color: #01c1b2;
+}
+.seven .div3 {
+  background-color: #505976;
+}
+.seven .div4 {
+  background-color: #00b7ee;
+}
+.seven .div5 {
+  background-color: #fe63bf;
+}
+.seven .div6 {
+  background-color: #42b8ea;
+}
+.seven .div7 {
+  background-color: #80c269;
+}
+.seven .seven_box:hover {
+  background-color: red;
+  border: 0.02196193rem solid #ffffff;
+  box-sizing: border-box;
+}

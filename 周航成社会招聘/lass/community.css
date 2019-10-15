@@ -1,0 +1,203 @@
+.commun {
+  width: 100%;
+  min-width: 320px;
+}
+/* 广告区域 */
+.banner {
+  width: 100%;
+  height: 171px;
+  line-height: 171px;
+  background: url(../images/v_small_banner.jpg) no-repeat -230px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.banner h1 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  font-family: '微软雅黑';
+  text-shadow: 0px 6px 10px #363333;
+}
+/* 菜单栏 */
+.menu {
+  width: 100%;
+  height: 150px;
+  /* background-color: aqua; */
+  display: flex;
+  position: relative;
+}
+.menu ul li {
+  height: 50px;
+  line-height: 50px;
+  padding-right: 20px;
+}
+.menu_left {
+  width: 100px;
+  height: 100%;
+  background-color: #ccc;
+  text-align: right;
+  border: 1px solid #ccc;
+}
+.menu_left i {
+  width: 100px;
+  height: 3px;
+  background-color: red;
+}
+.menu_list {
+  width: 100%;
+  height: 150px;
+}
+.menu_list ul li {
+  float: left;
+  margin-right: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+.menu_list a {
+  padding: 0px 10px;
+  display: block;
+  margin-top: 10px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  box-sizing: border-box;
+  /* background-color: red; */
+}
+.menu_list a:hover {
+  box-sizing: border-box;
+}
+.menu_top {
+  padding-left: 20px;
+  width: 92%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  border-top: 1px dotted #ccc;
+  box-sizing: border-box;
+}
+.menu_zhong {
+  padding-left: 20px;
+  width: 92%;
+  display: block;
+  position: absolute;
+  top: 50px;
+  border-top: 1px dotted #ccc;
+  box-sizing: border-box;
+}
+.menu_bottom {
+  padding-left: 40px;
+  width: 92%;
+  position: absolute;
+  top: 100px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  box-sizing: border-box;
+}
+.menu_bottom ul li:nth-child(1) input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.menu_bottom ul li:nth-child(2) input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: red;
+  color: white;
+}
+.presentation {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.presentation .title ul {
+  width: 100%;
+  height: 50px;
+  background-color: #ccc;
+}
+.presentation .title ul li {
+  float: left;
+  margin-left: 55px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.presentation .title ul li:nth-child(2) {
+  margin-left: 75px;
+}
+.presentation .title ul li:nth-child(3) {
+  margin-left: 314px;
+}
+.presentation .title ul li:nth-child(4) {
+  margin-left: 80px;
+}
+.content ul {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.content ul li {
+  float: left;
+  margin-left: 70px;
+}
+.c {
+  width: 100%;
+  background-color: #F2FBFF;
+  margin-bottom: 20px;
+}
+.p {
+  position: absolute;
+  left: 80px;
+  top: 60px;
+  color: black;
+}
+.p1 {
+  position: absolute;
+  left: 80px;
+  top: 90px;
+  color: black;
+}
+.p2 {
+  position: absolute;
+  left: 80px;
+  top: 120px;
+  color: black;
+}
+.p3 {
+  position: absolute;
+  left: 80px;
+  top: 150px;
+  color: black;
+}
+.p4 {
+  position: absolute;
+  left: 80px;
+  top: 180px;
+  color: black;
+}
+.img {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  right: 90px;
+  top: 50px;
+}
+.banner_s {
+  width: 200px;
+  height: 150px;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+}
+.banner_s img {
+  width: 100%;
+  height: 100%;
+}

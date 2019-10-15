@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // rem适配
+        (function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 15 + 'px';
+            window.addEventListener('resize', function () {
+                if (document.documentElement.clientWidth <= 1035) {
+                    document.documentElement.style.fontSize = 1035 / 15 + 'px';
+                } else {
+                    document.documentElement.style.fontSize = document.documentElement.clientWidth / 15 +
+                        'px';
+                }
+            });
+        })();
+    </script>
+    <link rel="stylesheet" href="CSS/bass.css">
+    <link rel="stylesheet" href="CSS/less.css">
+    <script src="JavaScript/jquery-3.2.1.min.js"></script>
+    <script src="JavaScript/waterwheelCarousel.min.js"></script>
+    <script src="lib/klouds.min.js"></script>
+    <script src="JavaScript/index.js"></script>
+</head>
+
+<body>
+    <!-- 容器 包装 -->
+    <div class="wrap">
+        <!-- 头部导航 -->
+        <div class="head">
+            <!-- logo -->
+            <a href="javascript:;"></a>
+            <!-- 左导航 -->
+            <div class="nav_a">
+                <a href="javascript:;">精选</a>
+                <a href="javascript:;">评测</a>
+                <a href="javascript:;">游戏库</a>
+            </div>
+            <!-- 有导航 -->
+            <div class="nav_right">
+                <a href="javascript:;">暴雪游戏</a>
+                <a href="../赵建堃网易游戏首页/index.html">网易游戏</a>
+                <a href="../刘宏鹏网易大神/首页/index.html">网易大神</a>
+            </div>
+            <!-- 登录 -->
+            <div class="long">
+                <a href="javascript:;">登录<div class="register">
+                        <input type="text" placeholder="邮箱账号或手机号">
+                        <input type="password" placeholder="6-16位密码,区分大小写">
+                        <p>使用<span>网易账号管家</span>,全面保护您的账号!</p>
+                        <button>登&nbsp;&nbsp;&nbsp;录</button>
+                    </div>
+                </a>
+                <a href="javascript:;">注册
+                    <div class="login">注册VIP邮箱(特权邮箱,付费)</div>
+                </a>
+                <a href="javascript:;" title="点击">投稿</a>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div class="section">
+            <!-- 轮播图 -->
+            <div class="carousel">
+                <!-- 轮播图的列表 -->
+                <div class="imgList">
+                    <div class="imgBox">
+                        <a href="javascript:;"><img src="images/92bb1909bf8f4f92b15b3bef0d594491.jpeg"></a>
+                        <a href="javascript:;" style="display: none;"><img
+                                src="images/2019_08_30_1f7c8f3a8c9d4418b9dd70e723dc10b8.jpeg"></a>
+                    </div>
+                </div>
+                <!-- 按钮列表 -->
+                <ol class="btnList">
+                    <li class="jqbg"></li>
+                    <li></li>
+                </ol>
+            </div>
+            <!-- 轮播图右 -->
+            <div class="search">
+                <input type="text" placeholder="请输入你想搜索的内容">
+                <section id="bgImg">
+                    <span>&nbsp;关于</span>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <span>|</span>
+                    <a href="javascript:;"></a>
+                    <span>爱玩</span>
+                </section>
+                <div class="searchBanner">
+                    <div>
+                        <img src="images/8d403cc1fbdd4234a7c0c1a33a9d5f00.png">
+                        <div class="text">
+                            <p>魔兽争霸情报局<em></em></p>
+                            <i>平台地图作者采访</i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/1a4231d1b0994a9db76b58d4177929c8.jpeg">
+                        <div class="text">
+                            <p>炉石爱情故事<em></em></p>
+                            <i>"西泠炉石恋"回顾视频</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 爱玩精选 -->
+        <div class="main-news-wrap">
+            <div class="main">
+                <!-- 标题 -->
+                <div class="title">
+                    <!-- 爱玩精选 -->
+                    <div class="text">
+                        <a href="javascript:;">更多&nbsp;&gt;</a>
+                        <h1>爱玩精选</h1>
+                    </div>
+                </div>
+                <!-- 图片轮播图 -->
+                <div class="Listimg">
+                    <div id="carousel">
+                        <img src="images/1.png" alt="Image 1" />
+                        <img src="images/2.jpeg" alt="Image 2" />
+                        <img src="images/3.png" alt="Image 3" />
+                        <img src="images/4.png" alt="Image 4" />
+                        <img src="images/5.png" alt="Image 5" />
+                    </div>
+                    <canvas id="myClouds"></canvas>
+                </div>
+            </div>
+            <!-- 游戏新鲜事 -->
+            <div class="news-wrap">
+                <div class="title1">
+                    <!-- 爱玩精选 -->
+                    <div class="text1">
+                        <a href="javascript:;">更多&nbsp;&gt;</a>
+                        <h1>游戏新鲜事</h1>
+                    </div>
+                </div>
+                <div class="new-conten">
+                    <span>02</span>
+                    <i>游戏史上的今天 · 2008 / 9 / 02</i>
+                    <a href="javascript:;">集大成的积极探索《无尽的未知》</a>
+                    <ul class="newCont">
+                        <li>
+                            <span>昨天</span>
+                            <i></i>
+                            <em>神秘诗词对决空降大荒？木子带你玩转 “云裳雅集”汉服游园会全新活动</em>
+                        </li>
+                        <li>
+                            <span>昨天</span>
+                            <i></i>
+                            <em>神秘诗词对决空降大荒？木子带你玩转 “云裳雅集”汉服游园会全新活动</em>
+                        </li>
+                        <li>
+                            <span>昨天</span>
+                            <i></i>
+                            <em>神秘诗词对决空降大荒？木子带你玩转 “云裳雅集”汉服游园会全新活动</em>
+                        </li>
+                        <li>
+                            <span>昨天</span>
+                            <i></i>
+                            <em>神秘诗词对决空降大荒？木子带你玩转 “云裳雅集”汉服游园会全新活动</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 爱玩评测 -->
+        <div class="assess-wrap">
+            <div class="assess-title">
+                <!-- 爱玩评测 -->
+                <div class="text">
+                    <a href="javascript:;">更多&nbsp;&gt;</a>
+                    <h1>爱玩评测</h1>
+                </div>
+            </div>
+            <ul class="assess-cont">
+                <li>
+                    <img src="images/9389ef5560e743dc9ee7fe21edfd3594.jpeg" alt="">
+                    <div class="w ww" style="background-color:#aaa"></div>
+                </li>
+                <li>
+                    <img src="images/428f535036de46cabe64b9d3837057bf.png" alt="">
+                    <div class="w" style="background-color:#aaa"></div>
+                </li>
+                <li>
+                    <img src="images/8f246c05fd514e409cdf971ad6b41532.jpeg" alt="">
+                    <div class="w" style="background-color:#aaa"></div>
+                </li>
+                <li>
+                    <img src="images/10cacb3799a7411bac9bfbc1e87a85e9.jpeg" alt="">
+                    <div class="w" style="background-color:#aaa"></div>
+                </li>
+                <li>
+                    <img src="images/de21a758b98f4d2f816feddf2e857ca2.png" alt="">
+                    <div class="w" style="background-color:#aaa"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- banner -->
+        <img class="banner" src="images/55a53bfe0e944ced9ff15b6e4e0b1cb3.jpeg">
+        <!-- 中下部分 -->
+        <div class="main-bottom">
+            <div class="top-left">
+                <div class="top-left-title">
+                    <div class="text1">
+                        <h1>游戏前檐</h1>
+                    </div>
+                </div>
+                <div class="top-left-cont">
+                    <div class="top-left-cont-left">
+                        <img src="images/83e8dff37f644d218b5cf986642ae8f7.jpeg" alt="">
+                        <div class="cont" style="background:#aaa;"></div>
+                    </div>
+                    <div class="top-left-cont-right">
+                        <img src="images/83e8dff37f644d218b5cf986642ae8f7.jpeg" alt="">
+                        <div class="cont" style="background:#aaa;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-left">
+                <div class="bottom-left-title">
+                    <div class="text1">
+                        <a href="javascript:;">更多&nbsp;&gt;</a>
+                        <h1>游戏推荐</h1>
+                    </div>
+                </div>
+                <div class="bottom-left-cont">
+                    <img class="topimg" src="images/aad7fef948464f12887fea07a843326b.jpeg" alt="">
+                    <img class="topimg" src="images/09704043bb67488f85a1518833539691.jpeg" alt="">
+                    <img class="topimg" src="images/b90c1b14907642be965abaa9eb57ec9c.jpeg" alt="">
+                    <img class="topimg" src="images/828fa7d8f8134e11aa236fbd2b360524.png" alt="">
+                    <img class="bigimg" src="images/7a32639938814c14a37e4031125fef23.png" alt="">
+                    <img class="bigimg" src="images/11e5f9b0db764a6f9fe084a3f408ae08.png" alt="">
+                </div>
+            </div>
+            <div class="main-bottom-right">
+                <div class="main-bottom-title">
+                    <div class="text1">
+                        <a href="javascript:;">更多&nbsp;&gt;</a>
+                        <h1>游戏推荐</h1>
+                    </div>
+                </div>
+                <ul class="main-bottom-list">
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/5b33015e96dee42c136c9796BAW8aExY.jpg" alt="">
+                        <div class="txtCont">
+                            <span>时代终结:赶尽杀绝</span>
+                            <em>动作</em>
+
+                            <p>window</p>
+                            <i>09 / 17</i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 下 banner-->
+        <img class="banner" src="images/55a53bfe0e944ced9ff15b6e4e0b1cb3.jpeg">
+        <!-- 动画 -->
+        <div class="g-middl1 clearfix">
+            <section class="g-middl1-l">
+                <div class="m-title">
+                    <span class="t">新媒体矩阵</span>
+                </div>
+                <ul class="in-meiti clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/j1.png">
+                            <p>网易爱玩</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 网易爱玩</i></a>
+                        <a href="javascript:;" class="a weibo j2"></a>
+                        <a href="javascript:;" class="a zhi j3"></a>
+                        <a class="a weixin j4"><i>微信号 play163</i></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/2018_12_11_4563c0fe9f6742498909a92585809080.png">
+                            <p>易竞技</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 易竞技</i></a>
+                        <a href="javascript:;" class="a weibo j2"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/f111.png">
+                            <p>大神评游戏</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 大神评游戏</i></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/65g4qkh5ecvpmurjookxfi6te7peyfjc.jpeg">
+                            <p>暴雪大神</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 暴雪娘</i></a>
+                        <a href="javascript:;" class="a weibo j2"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/j3.png">
+                            <p>凯恩之角</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 凯恩之角</i></a>
+                        <a href="javascript:;" class="a weibo j2"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/j4.png">
+                            <p>爱剁手的U酱</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 爱剁手的U酱</i></a>
+                        <a href="javascript:;" class="a steam j2"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" target="_self">
+                            <img src="images/j55.png">
+                            <p>易游神</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号 易游神</i></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/f66.png">
+                            <p>手游热爱者</p>
+                        </a>
+                        <a href="javascript:;" class="a ds j1"><i>大神号
+                                手游热爱者</i></a>
+                    </li>
+
+                </ul>
+            </section>
+            <section class="g-middl1-r">
+                <div class="m-title">
+                    <span class="t">游戏工具</span>
+                </div>
+                <ul class="in-tools clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/tt3.png">
+                            <p>网易CC直播</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/t4.png">
+                            <p>UU加速器</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/t2.png">
+                            <p>区块链游戏</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/t1.png">
+                            <p>点卡充值优惠</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!-- 底部 -->
+        <article class="m-footers">
+            <footer class="g-1500">
+                <section class="g-logos">
+                    <a href="javascript:;">
+                        <img src="images/logo-y.png">
+                    </a>
+                </section>
+                <p class="text">
+                    <a href="javascript:;">网站地图</a>
+                    <i>|</i>
+                    <a href="javascript:;">商务合作</a>
+                    <i>|</i>
+                    <a href="javascript:;">人才招聘</a>
+                    <i>|</i>
+                    <a href="javascript:;">主编信箱</a>
+                    <i>|</i>
+                    <a href="javascript:;">友情链接</a>
+                </p>
+            </footer>
+            <section class="g-1500 g-footer-bottom">
+                广州网易计算机系统有限公司版权所有 ©1997-2019 《网络文化经营许可证》粤网文【2017】6527-1578号
+            </section>
+        </article>
+    </div>
+</body>
+
+</html>

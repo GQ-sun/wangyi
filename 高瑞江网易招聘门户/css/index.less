@@ -1,0 +1,649 @@
+.head {
+    height: 50px;
+    padding: 6px 0;
+
+    // background-color: red;
+    .nav {
+        height: 100%;
+    }
+}
+
+//顶部logo区域
+.nav .logo {
+    width: 140px;
+    height: 50px;
+
+    a {
+        width: 140px;
+        height: 50px;
+        display: block;
+        background: url(../img/netease_logo.png)no-repeat 0 -40px;
+    }
+}
+
+//顶部导航
+.nav_list {
+    height: 100%;
+    margin-left: 80px;
+
+    li {
+
+        a {
+            border-bottom: 4px solid #fff;
+
+            display: inline-block;
+            padding: 0 25px;
+            line-height: 52px;
+            font-size: 15px;
+            font-family: 微软雅黑, serif;
+        }
+
+    }
+
+    li:nth-child(4) a {
+        border-bottom: 4px solid #e60012;
+        color: #e60012;
+
+    }
+
+    a:hover {
+        transform: all 0.6s;
+        border-bottom: 4px solid #e60012;
+        color: #e60012;
+
+    }
+}
+
+
+//登录图标
+.nav .login {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 4px 15px;
+    margin-top: 7px;
+}
+
+.nav .login:hover {
+    background-color: #f2f2f2;
+}
+
+//注册图标
+.nav .register {
+    font-size: 14px;
+    padding: 4px 15px;
+    background-color: #e60012;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: #fff;
+}
+
+.nav .register:hover {
+    background-color: #cd0010;
+}
+
+//关于网易游戏区域
+.wy_game {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    background: url(../img/bg_01.jpg) no-repeat top center;
+    border-bottom: 2px solid #fff;
+
+
+    //页面左边固定的列表
+    ul {
+        width: 200px;
+        position: fixed;
+        z-index: 100;
+        top: 130px;
+
+        li {
+            // width: 100%;
+            color: #454545;
+            padding-left: 10px;
+            font-size: 18px;
+            line-height: 35px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .instyle {
+            font-size: 22px;
+            color: #e60012;
+            font-weight: bold;
+        }
+
+        .pitch_on {
+            border-left: 2px solid #e60012;
+            font-size: 22px;
+            color: #e60012;
+            font-weight: 700;
+        }
+
+        .li_click {
+            color: #e60012;
+        }
+
+        .li_out1 {
+            color: #fff;
+        }
+
+        .li_out2 {
+            color: #454545;
+        }
+    }
+}
+
+//关于网易的右边内容区域
+.wy_game .content {
+    position: relative;
+}
+
+.wy_game .text {
+    width: 940px;
+    padding: 20px 30px;
+    background: rgba(235, 244, 251, .7);
+    position: absolute;
+    box-sizing: border-box;
+    top: 40px;
+    right: 0;
+}
+
+.wy_game h2 {
+    color: #454545;
+    padding: 10px;
+    font-size: 32px;
+
+    span {
+        font-size: 22px;
+        text-decoration: underline #ccc;
+    }
+}
+
+.content .text p {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    font-family: "微软雅黑, serif";
+
+    span {
+        padding-left: 2em;
+    }
+}
+
+.content .about_wy {
+    width: 940px;
+    // height: 412px;
+    padding: 30px 30px;
+    background: rgba(235, 244, 251, .7);
+    position: absolute;
+    right: 0;
+    top: 435px;
+    box-sizing: border-box;
+
+    p {
+        text-indent: 2em;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000;
+        font-family: "微软雅黑, serif";
+
+        span {
+            padding-left: 2em;
+        }
+    }
+
+    .red_tags {
+        color: #b5101b;
+        font-weight: 700;
+    }
+
+    .img_show {
+        margin-top: 10px;
+    }
+
+    .onIndex a {
+        padding: 4px 15px;
+        color: #fff;
+        background-color: #da2b2a;
+        // text-align: center;
+    }
+}
+
+// 网易文化区域
+.wy_culture {
+    width: 100%;
+    height: 899px;
+    box-sizing: border-box;
+    padding: 65px 0 0;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 2px solid #000;
+    background: url(../img/bg_02.jpg) no-repeat top center;
+
+    .culture_item {
+        width: 940px;
+        // height: 405px;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        background: rgba(74, 86, 96, .7);
+        margin-left: 260px;
+    }
+
+}
+
+.small_text {
+    text-indent: 2em;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-family: "微软雅黑, serif";
+}
+
+.small_title {
+    font-size: 18px;
+    color: #39b9f5;
+    margin: 20px 0 0;
+    text-indent: 2em;
+    font-weight: 700;
+}
+
+.big_title {
+    color: #454545;
+    padding: 10px;
+    font-size: 32px;
+    color: #fff;
+
+    span {
+        font-family: "Myriad Pro";
+        font-size: 22px;
+        text-decoration: underline #ccc;
+    }
+}
+
+.item_second {
+    width: 940px;
+    margin-top: 10px;
+    // height: 315px;
+    box-sizing: border-box;
+    padding: 0 30px 20px;
+    background: rgba(74, 86, 96, .7);
+    margin-left: 260px;
+}
+
+
+// 用人理念区域
+
+.use_people {
+    width: 100%;
+    height: 899px;
+    position: relative;
+    padding: 65px 0 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+    overflow: hidden;
+    background: url(../img/bg_03.jpg) no-repeat top center;
+
+
+    .use_top_main {
+        width: 940px;
+        height: 209px;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        margin-left: 260px;
+
+        h3 {
+            color: #000;
+            text-indent: 2em;
+            font-weight: 700;
+            font-size: 17px;
+            padding: 10px 0;
+        }
+    }
+
+    .user_require {
+        width: 940px;
+        height: 549px;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        margin-left: 260px;
+        margin-top: 15px;
+        font-size: 14px;
+        background: url(../img/competition.png) no-repeat bottom right;
+        background-color: rgba(224, 228, 229, .7);
+
+
+        .user_require_left {
+            width: 500px;
+            height: 100%;
+        }
+
+        span {
+            padding-left: 2em;
+            color: #000;
+        }
+
+        p span:first-child {
+            color: #b5101b;
+            font-weight: 700;
+            padding: 0;
+        }
+
+    }
+
+}
+
+// !-- 薪酬福利区域 -->
+.welfare {
+    width: 100%;
+    height: 899px;
+    padding: 65px 0 0;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+    background: url(../img/bg_04.jpg) no-repeat top center;
+
+
+    .welfare_mail {
+        width: 940px;
+        height: 549px;
+        margin-left: 260px;
+        font-size: 14px;
+
+        .payment {
+            width: 100%;
+            height: 225px;
+            padding: 20px 30px;
+            box-sizing: border-box;
+            background-color: rgba(48, 54, 66, .7);
+        }
+
+        .treatment {
+            color: #38b9f5;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .treatment_main {
+            padding: 5px 0;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+
+    // 薪酬具体事项内容
+    .payment ul li {
+        width: 220px;
+        height: 143px;
+        color: #fff;
+        border-right: 1px solid #ccc;
+        padding-left: 15px;
+        box-sizing: border-box;
+
+        h4 {
+            text-indent: 2em;
+            color: #38b9f5;
+
+        }
+
+        p {
+            text-indent: 2em;
+
+            span {
+                padding-left: 2em;
+            }
+        }
+
+    }
+}
+
+//具体福利事项
+.fl_mail {
+    width: 100%;
+    // height: 225px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: rgba(48, 54, 66, .7);
+
+    ul {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    li {
+        padding: 7px 0;
+    }
+
+    li:first-child {
+        margin-top: 5px;
+    }
+
+    li:last-child {
+        margin-bottom: 5px;
+    }
+
+    li:nth-child(2n-1) {
+        background-color: rgba(98, 101, 109, .7);
+    }
+
+    li:nth-child(2n) {
+        background-color: rgba(61, 66, 76, .7);
+    }
+
+    li div:first-child {
+        width: 72px;
+        font-size: 12px;
+
+        // padding: 5px 0;
+        // height: 40px;
+        h4 {
+            color: #38b9f5;
+            float: right;
+        }
+    }
+
+    li div:last-child {
+        width: 808px;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+
+// 联系我们区域
+.contact {
+    width: 100%;
+    position: relative;
+    height: 899px;
+    overflow: hidden;
+    background: url(../img/bg_05.jpg) no-repeat top center;
+
+    .w {
+        padding-top: 74.5px;
+    }
+
+    .item_detail {
+        padding: 7px 30px;
+        box-sizing: border-box;
+        width: 940px;
+        height: 400px;
+        background-color: rgba(237, 238, 238, .7);
+        margin-left: 260px;
+        overflow: hidden;
+
+        h2 {
+            padding: 0;
+            color: #000;
+        }
+    }
+    .iw_poi_title {
+        color: #CC5522;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        padding-right: 13px;
+        white-space: nowrap
+    }
+
+    .iw_poi_content {
+        font: 14px arial, sans-serif;
+        overflow: visible;
+        padding-top: 4px;
+        white-space: -moz-pre-wrap;
+        word-wrap: break-word
+    }
+}
+
+// 回到顶部区域
+.back_to_top {
+    // height: 50px;
+    font-size: 14px;
+    background-color: #e5e5e5;
+    text-align: center;
+
+    a {
+        background: url(../img/netease_logo.png) no-repeat 0 -430px;
+        line-height: 50px;
+        color: #333;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+
+    a:hover {
+        color: #666;
+        text-decoration: underline #666;
+    }
+}
+
+// 底部区域
+.footer {
+    height: 121px;
+    background-color: #3d3d39;
+    padding: 45px;
+    box-sizing: border-box;
+
+    .footer_mail {
+        width: 940px;
+        margin-left: 260px;
+    }
+
+    .footer_logo {
+        width: 253px;
+        // background-color: red;
+        height: 31px;
+
+        a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: url(../img/netease_logo.png) no-repeat 0 0;
+        }
+    }
+
+    .foot_menu {
+        margin-left: 10px;
+        font-size: 12px;
+        color: #afafaf;
+
+        a {
+            color: #afafaf;
+        }
+    }
+
+    a:hover {
+        animation: change 0.5s infinite;
+        text-decoration: underline;
+    }
+
+    @keyframes change {
+        0% {
+            color: #afafaf;
+        }
+
+        25% {
+            color: #556bd8;
+        }
+
+        50% {
+            color: #e40707;
+        }
+
+        75% {
+            color: #66e616;
+        }
+
+        100% {
+            color: #b5101b;
+        }
+    }
+
+
+
+
+
+
+    h6 {
+        color: #afafaf;
+    }
+}
+
+
+.down {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    .bounce_symbol {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 50%;
+        margin-top: 10px;
+        color: #fff;
+        top: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        background: url(../img/netease_logo.png) no-repeat -202px -430px;
+        animation: arrow-bounce 2s infinite;
+    }
+
+    @keyframes arrow-bounce {
+        0% {
+            top: 50%;
+        }
+
+        25% {
+            top: 30%;
+        }
+
+        35% {
+            top: 50%;
+        }
+
+        45% {
+            top: 35%;
+        }
+
+        55% {
+            top: 50%;
+        }
+
+        100% {
+            top: 50%;
+        }
+    }
+
+}

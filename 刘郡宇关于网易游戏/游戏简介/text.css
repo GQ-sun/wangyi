@@ -1,0 +1,310 @@
+.nav {
+    height: 90px;
+    background-color: #f2f2f2;
+}
+
+.nav_left_img {
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 45px;
+    background: url(img/netease_logo.png) no-repeat left -41px;
+    top: 21px;
+    display: block;
+}
+
+.nav_right ul li a {
+    position: relative;
+    float: left;
+    margin: 0 25px;
+    font-size: 16px;
+    color: #888;
+    line-height: 90px;
+}
+
+.nav_right ul li:hover {
+    border-top: 5px solid #c21d35;
+    height: 85px;
+}
+
+.nav_box {
+    position: absolute;
+    left: 80%;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 96px;
+    background: #cf1132;
+    z-index: 9999;
+}
+
+.nav_box input {
+    width: 120px;
+    height: 96px;
+    background: #cf1132;
+    font-size: 16px;
+    color: #f2ebeb;
+
+}
+
+.nav_box i {
+    background-size: 68px 62px;
+    /* background-image:  */
+    overflow: hidden;
+}
+
+
+.topBar .topOpen i,
+.topBar .topOpen.open i,
+.topBar .closeNav i,
+.topBar .closeNav:hover i,
+.icon-N,
+.icon-H {
+    background-size: 68px 62px;
+    background-image: url(img/topBar_1_z_e7632fe.png);
+}
+
+.topBar .topOpen.open i {
+    background-position: -34px 0px;
+}
+
+.topBar .topOpen.open i {
+    background-repeat: no-repeat;
+}
+
+.icon-H {
+    background-position: -56px -48px;
+}
+
+.icon-H {
+    background-repeat: no-repeat;
+}
+
+.icon-H,
+.icon-N {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    position: relative;
+}
+
+.icon-N {
+    background-position: -56px -34px;
+}
+
+.icon-N {
+    background-repeat: no-repeat;
+}
+
+.icon-H,
+.icon-N {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+i {
+    font-style: normal;
+}
+
+.topNav p {
+    position: relative;
+    text-indent: 25px;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    margin: 40px 40px 25px;
+    margin-left: 185px;
+    margin-right: 200px;
+}
+
+.topNav {
+    position: absolute;
+    margin-left: 8%;
+    width: 80%;
+    padding-bottom: 60px;
+    top: 100px;
+    left: 0;
+    background: #282b2d;
+    z-index: 10000;
+}
+
+.topNav span {
+    float: right;
+    color: #f2ebeb;
+    font-size: 12px;
+}
+
+.nav-li-box a {
+    color: #c3c3c3;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+    -moz-outline: 0;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.nav-li-box.nav-li-box1 {
+    border-left: 0;
+    width: 360px;
+    padding-left: 210px;
+    box-sizing: border-box;
+}
+
+.f-cb,
+.f-cbli li {
+    zoom: 1;
+}
+
+.nav-li-box h2 {
+    font-size: 14px;
+    color: #6b6b6c;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-indent: 15px;
+}
+
+.nav-li-box.nav-li-box2 {
+    width: 204px;
+    box-sizing: border-box;
+}
+
+.nav-li-box.nav-li-box3 input {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #282b2d;
+    color: #fff;
+}
+
+.nav-li-box {
+    border-left: 1px #454545 solid;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+
+.f-cb,
+.f-cbli li {
+    zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.banner {
+    height: 180px;
+    background: url(img/head_bg_a7d5647.png) no-repeat center 0;
+}
+
+.banner.tit {
+    margin: 96px 0 0 20px;
+    height: 84px;
+}
+
+.tit span {
+    border-bottom: 5px solid #c21d35;
+    display: inline-block;
+    height: 175px;
+    color: #fff;
+    font: 42px/293px "Microsoft YaHei";
+}
+
+.content {
+    width: 832px;
+    padding: 72px 0 217px;
+}
+
+.content .p1 {
+    font: 14px/28px "Microsoft YaHei";
+    color: #626262;
+    margin: 0 0 30px;
+}
+
+.footer {
+    background: #272a2c;
+    color: #ccc;
+    padding: 20px 0;
+    margin-top: 580px;
+}
+
+/* ! */
+.footer1 {
+    width: 865px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer1 .logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    width: 300px
+}
+
+.footer1 .logo a {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.footer1 .logo a.a0 img {
+    padding-right: 0
+}
+
+.footer1 .logo img {
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.footer1 .a-nav {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+
+.footer1 .a-nav i {
+    font-style: normal
+}
+
+.footer1 .a-nav i .i2 {
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.footer1 .a-nav a {
+    text-decoration: none;
+    color: #cf1132;
+}
+
+.footer1 .a-nav a:hover {
+    text-decoration: underline
+}
+
+.footer1 .a-nav .cn1 {
+    padding-left: 18px;
+}

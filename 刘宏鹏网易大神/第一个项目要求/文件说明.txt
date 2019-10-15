@@ -1,0 +1,42 @@
+QQ音乐
+│  footer.html			页脚
+│  header.html			页头
+│  index.html			首页
+│  login.html			登录弹窗
+│  代码规范.txt
+│  分工.txt
+│  文件说明.txt
+│  
+├─css
+├─download
+│      download.html		下载页
+│      index.html			下载首页
+│      mac.html			mac下载
+│      pc.html			pc下载
+│      
+├─images
+├─js
+├─lib
+│      reset.css			css初始化
+│      
+├─portal
+│  │  album_lib.html			专辑
+│  │  mv_lib.html			MV
+│  │  playlist.html			歌单
+│  │  profile.html			我的音乐
+│  │  singerlist.html			歌手
+│  │  
+│  └─toplist			排行榜
+│          1.html
+│          2.html
+│          3.html
+│          4.html
+│          5.html
+│          
+└─vipportal
+        activity.html			活动
+        fufeibao.html			付费音乐包
+        index.html			首页
+        level.html			特权与等级
+        yearvip.html			年费
+        

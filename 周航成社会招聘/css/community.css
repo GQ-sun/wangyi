@@ -1,0 +1,224 @@
+.commun{
+    width: 100%;
+}
+
+
+/* 广告区域 */
+.banner {
+    width: 100%;
+    height: 171px;
+    line-height: 171px;
+    background: url(../images/v_small_banner.jpg) no-repeat -230px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: '微软雅黑';
+    text-shadow: 0px 6px 10px rgb(54, 51, 51);
+}
+
+/* 菜单栏 */
+.menu {
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+}
+
+.menu ul li {
+    height: 50px;
+    line-height: 50px;
+    padding-right: 20px;
+}
+
+
+
+.menu_left {
+    width: 100px;
+    height: 100%;
+    background-color: #ccc;
+    text-align: right;
+    border: 1px solid #ccc;
+}
+
+.menu_left i {
+    width: 100px;
+    height: 3px;
+    background-color: red;
+}
+
+.menu_list {
+    width: 100%;
+    height: 150px;
+    
+}
+
+.menu_list ul li {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.menu_list a {
+    padding: 0px 10px;
+    display: block;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.menu_list a:hover {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.menu_top {
+    padding-left: 20px;
+    width: 92%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    border-top: 1px dotted #ccc;
+    box-sizing: border-box;
+}
+
+.menu_zhong {
+    padding-left: 20px;
+    width: 92%;
+    display: block;
+    position: absolute;
+    top: 50px;
+    border-top: 1px dotted #ccc;
+    box-sizing: border-box;
+}
+
+.menu_bottom {
+    padding-left: 40px;
+    width: 92%;
+    position: absolute;
+    top: 100px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    box-sizing: border-box;
+}
+
+.menu_bottom ul li:nth-child(1) input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.menu_bottom ul li:nth-child(2) input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: red;
+    color: white;
+}
+
+
+/* 职位介绍 */
+.presentation{
+    width: 100%;
+    padding-top: 50px;
+}
+.presentation_list{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.presentation ul {
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+.presentation p{
+    float: left;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    color: black;
+    padding-left: 94px;
+    /* padding: 0px 55px;  */
+}
+.title{
+    background-color: #ccc;
+    
+}
+.presentation p:nth-child(1){
+    padding-left: 45px;
+}
+.presentation p:nth-child(3){
+    padding-left: 140px;
+}
+.presentation p:nth-child(4){
+    padding-left: 130px;
+}
+.presentation p:nth-child(6){
+    padding-left: 41px;
+}
+.presentation p:nth-child(7){
+  padding-right: 97px;
+}
+.presentation .biao li{
+    float: left;
+    font-size: 16px;
+    text-align: right;
+    color: black;
+    padding: 0px 50px;
+    /* margin-left: 98px; */
+    box-sizing: border-box;
+}
+.presentation .biao li:nth-child(1){
+    /* float: left; */
+    /* font-size: 16px; */
+    text-align: right;
+    /* color: black; */
+    padding: 0px 50px;
+    /* margin-left: 28px; */
+    /* box-sizing: border-box; */
+}
+.presentation .biao a{
+    width: 156px;
+    width: 100%;
+    /* padding: 0px 15px; */
+    height: 50px;
+    display: block;
+    
+}
+
+.presentation .biao li:nth-child(2){
+
+}
+.presentation .biao:last-child{
+    border-bottom: 1px solid #ccc;
+}
+.b{
+    position: relative;
+}
+.c{
+    width: 100%;
+    height: 50px;
+    background-color: lime;    
+    margin-top: 70px;
+    position: absolute;
+    top: 30px;
+    /* display: none; */
+}

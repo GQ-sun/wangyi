@@ -1,0 +1,313 @@
+.banner {
+  position: relative;
+  width: 15;
+}
+.top_anim {
+  margin: 1.97657394rem auto;
+  width: 10.98096633rem;
+  height: 1.72401171rem;
+  margin-bottom: 0.76866764rem;
+  background: url(../img/h1_title.png) no-repeat center;
+  background-size: 7.02781845rem;
+  transform: scale(1);
+}
+.animate {
+  animation: donghua 1s linear forwards;
+}
+@keyframes donghua {
+  0% {
+    margin: 2.41581259rem auto;
+    opacity: 0;
+    transform: scale(1);
+    background-size: 6.5885798rem;
+  }
+  50% {
+    margin: 1.97657394rem auto;
+    opacity: 1.2;
+    transform: scale(1.2);
+    background-size: 7.68667643rem;
+  }
+  60% {
+    margin: 1.97657394rem auto;
+    opacity: 1;
+    transform: scale(1);
+    background-size: 6.5885798rem;
+  }
+  70% {
+    margin: 1.97657394rem auto;
+    opacity: 1;
+    transform: scale(1.15);
+    background-size: 7.68667643rem;
+  }
+  75% {
+    margin: 1.97657394rem auto;
+    opacity: 1;
+    transform: scale(1);
+    background-size: 6.5885798rem;
+  }
+  85% {
+    margin: 1.97657394rem auto;
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  100% {
+    margin: 1.97657394rem auto;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.anim1 {
+  background: url(../img/v_h1_title.png) no-repeat center;
+  background-size: 7.02781845rem;
+}
+.p_anim {
+  width: 10.98096633rem;
+  height: 0.21961933rem;
+  margin-bottom: 0.10980966rem;
+  background: url(../img/v_h3_search.png) no-repeat center;
+  background-size: 2.19619327rem;
+}
+.banner > div {
+  width: 15rem;
+  height: 100vh;
+  border-top: 0.02196193rem solid #000;
+  box-sizing: border-box;
+  position: relative;
+}
+.first_photo {
+  background: url(../img/v_bg_01.jpg) no-repeat -0.65885798rem 0.38433382rem;
+  background-size: 130% 130vh;
+}
+.second_photo {
+  background: url(../img/v_bg_02.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.three_photo {
+  background: url(../img/v_bg_03.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.four_photo {
+  background: url(../img/v_bg_04.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.first_photo_changed {
+  background: url(../img/bg_01.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.second_photo_changed {
+  background: url(../img/bg_02.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.three_photo_changed {
+  background: url(../img/bg_03.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.four_photo_changed {
+  background: url(../img/bg_04.jpg) no-repeat;
+  background-size: 100% 100vh;
+}
+.first_photo .search {
+  width: 9.00439239rem;
+  height: 0.54904832rem;
+  background-color: #fff;
+  border: 0.01098097rem solid skyblue;
+  position: absolute;
+  bottom: 1.09809663rem;
+  left: 3.18448023rem;
+  cursor: pointer;
+}
+.btn1 {
+  float: left;
+  width: 0.98828697rem;
+  height: 0.54904832rem;
+  line-height: 0.54904832rem;
+  position: relative;
+}
+.search .btn1 p {
+  padding: 0.12079063rem;
+  font-size: 0.21961933rem;
+  font-family: '微软雅黑';
+}
+.btn1 .down {
+  display: block;
+  width: 0.19765739rem;
+  height: 0.10980966rem;
+  background: url(../img/arrow.png) no-repeat 0 0;
+  position: absolute;
+  top: 0.24158126rem;
+  right: 0.10980966rem;
+}
+.list1 {
+  width: 0.98828697rem;
+  position: absolute;
+  bottom: -2.19619327rem;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+.list1 li {
+  height: 0.27452416rem;
+  line-height: 0.27452416rem;
+  font-size: 0.15373353rem;
+  text-align: center;
+}
+.list1 li:hover {
+  background-color: #ccc;
+}
+.rotate1 {
+  transform: rotate(180deg);
+}
+.btn2 {
+  float: left;
+  width: 0.98828697rem;
+  height: 0.54904832rem;
+  line-height: 0.54904832rem;
+  position: relative;
+}
+.search .btn2 p {
+  padding: 0.12079063rem;
+  font-size: 0.21961933rem;
+  font-family: '微软雅黑';
+}
+.btn2 .down {
+  display: block;
+  width: 0.19765739rem;
+  height: 0.10980966rem;
+  background: url(../img/arrow.png) no-repeat 0 0;
+  position: absolute;
+  top: 0.24158126rem;
+  right: 0.10980966rem;
+}
+.list2 {
+  width: 0.98828697rem;
+  position: absolute;
+  bottom: -2.19619327rem;
+  left: 0.98828697rem;
+  background-color: #fff;
+  display: none;
+}
+.list2 li {
+  height: 0.27452416rem;
+  line-height: 0.27452416rem;
+  font-size: 0.15373353rem;
+  text-align: center;
+}
+.list2 li:hover {
+  background-color: #ccc;
+}
+.rotate2 {
+  transform: rotateX(180deg);
+}
+.search_input {
+  height: 0.52708638rem;
+  line-height: 0.52708638rem;
+  font-size: 0.21961933rem;
+}
+.search_button {
+  height: 100%;
+  width: 10%;
+  line-height: 0.54904832rem;
+  font-size: 0.21961933rem;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.hot_search {
+  position: absolute;
+  bottom: 0.76866764rem;
+  left: 6.25915081rem;
+}
+.hot_search span {
+  font-size: 0.17569546rem;
+  color: #fff;
+  font-family: "微软雅黑";
+}
+.hot_search a {
+  font-size: 0.17569546rem;
+  color: #fff;
+  font-family: "微软雅黑";
+  margin-left: 0.10980966rem;
+}
+.hot_search a:hover {
+  text-decoration-line: underline;
+}
+.mouse-big {
+  position: absolute;
+  left: 50%;
+  bottom: 0.43923865rem;
+  margin-left: -0.38433382rem;
+  display: none;
+}
+.mouse-big .mouse-down-icon {
+  width: 0.76866764rem;
+  height: 0.76866764rem;
+  background: #e60012 url(../img/mousedown_tips.png) no-repeat center 0.16471449rem;
+  background-size: 0.17569546rem;
+  border-radius: 0.38433382rem;
+}
+.mouse-big .mouse-down-icon:hover {
+  animation: rotate3 0.2s linear forwards;
+}
+@keyframes rotate3 {
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: -0.98828697rem;
+    background-color: #fff;
+  }
+}
+.bots {
+  position: fixed;
+  right: 0.65885798rem;
+  top: 2.19619327rem;
+  z-index: 1;
+}
+.bots li {
+  font-size: 0.32942899rem;
+  margin-top: 0.21961933rem;
+  font-weight: 700;
+  width: 0.32942899rem;
+  height: 0.32942899rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.32942899rem;
+  cursor: pointer;
+}
+.current {
+  color: red;
+  size: 0.43923865rem;
+  border: 0.01098097rem solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+.return_top {
+  width: 100%;
+  height: 0.65885798rem;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 0.65885798rem;
+}
+.return_top a {
+  font-size: 0.15373353rem;
+  padding-left: 0.21961933rem;
+  line-height: 0.54904832rem;
+  text-decoration: none;
+  height: 0.54904832rem;
+  background: url(../img/netease_logo.png) no-repeat 0 -4.71083455rem;
+  background-size: 4.238653rem;
+}
+.return_top a:hover {
+  color: #a4acac;
+  text-decoration-line: underline;
+}
+.on_off {
+  width: 0.87847731rem;
+  height: 0.87847731rem;
+  background: url(../img/scene_trigger.png) no-repeat 0 0;
+  background-size: 0.87847731rem;
+  position: absolute;
+  top: 0.65885798rem;
+  right: 0;
+  z-index: 1;
+}

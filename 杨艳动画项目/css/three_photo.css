@@ -1,0 +1,128 @@
+.three_big {
+  width: 10.98096633rem;
+  margin: 1.09809663rem auto;
+}
+.three_big .three_box {
+  text-align: center;
+}
+.three_big .three_box .three_anm {
+  display: block;
+  widows: 100%;
+  height: 0.14275256rem;
+  margin-bottom: 0.10980966rem;
+  background: url(../img/v_h3_hot.png) no-repeat center;
+  background-size: 1.26281113rem;
+}
+.three_big .three_box h2 {
+  font-size: 0.46120059rem;
+  font-weight: 700;
+  color: #0a1331;
+}
+.three_big .three_box2 .three_left {
+  width: 4.39238653rem;
+  margin-left: 0.54904832rem;
+  float: left;
+}
+.three_big .three_box2 .three_left .top {
+  width: 4.39238653rem;
+  height: 0.32942899rem;
+  line-height: 0.32942899rem;
+  border-left: 0.04392387rem solid red;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 0.65885798rem;
+}
+.three_big .three_box2 .three_left .top p {
+  font-size: 0.24158126rem;
+  font-weight: 700;
+  color: #0a1331;
+  display: inline-block;
+  margin-left: 0.10980966rem;
+}
+.three_big .three_box2 .three_left .top span {
+  display: inline-block;
+  width: 0.65885798rem;
+  height: 0.32942899rem;
+  line-height: 0.32942899rem;
+  text-align: center;
+  border-radius: 0.05490483rem;
+  border: 0.01098097rem solid red;
+  position: absolute;
+  right: 0.10980966rem;
+  margin-top: 0.05490483rem;
+}
+.three_big .three_box2 .three_left #scroll_left {
+  width: 4.39238653rem;
+  height: 2.50366032rem;
+  margin-top: 0.32942899rem;
+  overflow: hidden;
+}
+.three_big .three_box2 .three_left #scroll_left li {
+  padding: 0.10980966rem 0;
+  font-size: 0.17569546rem;
+}
+.three_big .three_box2 .three_left #scroll_left li a {
+  color: #0a1331;
+}
+.three_big .three_box2 .three_left #scroll_left li span {
+  font-size: 0.15373353rem;
+  float: right;
+  color: #0a1331;
+}
+.three_big .three_box2 .three_left #scroll_left li:hover a {
+  text-decoration-line: underline;
+}
+.three_big .three_box2 .three_right {
+  width: 4.39238653rem;
+  margin-left: 0.54904832rem;
+  float: left;
+}
+.three_big .three_box2 .three_right .top {
+  width: 4.39238653rem;
+  height: 0.32942899rem;
+  line-height: 0.32942899rem;
+  border-left: 0.04392387rem solid red;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 0.65885798rem;
+}
+.three_big .three_box2 .three_right .top p {
+  font-size: 0.24158126rem;
+  font-weight: 700;
+  color: #0a1331;
+  display: inline-block;
+  margin-left: 0.10980966rem;
+}
+.three_big .three_box2 .three_right .top span {
+  display: inline-block;
+  width: 0.65885798rem;
+  height: 0.32942899rem;
+  line-height: 0.32942899rem;
+  text-align: center;
+  border-radius: 0.05490483rem;
+  border: 0.01098097rem solid red;
+  position: absolute;
+  right: 0.10980966rem;
+  margin-top: 0.05490483rem;
+}
+.three_big .three_box2 .three_right #scroll_right {
+  width: 4.39238653rem;
+  height: 2.50366032rem;
+  margin-top: 0.32942899rem;
+  overflow: hidden;
+}
+.three_big .three_box2 .three_right #scroll_right li {
+  padding: 0.10980966rem 0;
+  font-size: 0.17569546rem;
+}
+.three_big .three_box2 .three_right #scroll_right li a {
+  color: #0a1331;
+}
+.three_big .three_box2 .three_right #scroll_right li span {
+  font-size: 0.15373353rem;
+  float: right;
+  color: #0a1331;
+}
+.three_big .three_box2 .three_right #scroll_right li:hover a {
+  text-decoration-line: underline;
+}

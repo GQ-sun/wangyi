@@ -1,0 +1,60 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+.nav {
+  width: 15rem;
+  height: 0.65885798rem;
+  line-height: 0.61493411rem;
+  background-color: #fff;
+  position: absolute;
+  float: left;
+  z-index: 1;
+}
+.nav .logo a {
+  display: block;
+  float: left;
+  width: 1.59224012rem;
+  height: 0.65885798rem;
+  margin-right: 0.54904832rem;
+  background-color: red;
+  background: url(../img/netease_logo.png) no-repeat 0 -0.36237189rem;
+  background-size: 4.238653rem;
+}
+.nav li a {
+  float: left;
+  color: #000;
+  font-size: 0.17569546rem;
+  font-family: '微软雅黑';
+  padding-left: 0.21961933rem;
+  padding-right: 0.21961933rem;
+}
+.nav li a:hover {
+  border-bottom: 0.04392387rem solid red;
+}
+.nav .btn1 {
+  width: 0.65885798rem;
+  height: 0.32942899rem;
+  background-color: crimson;
+  float: left;
+  margin-left: 3.2942899rem;
+  margin-top: 0.21961933rem;
+  text-align: center;
+  line-height: 0.32942899rem;
+}
+.nav .btn1 a {
+  color: #fff;
+}
+.nav .btn2 {
+  width: 0.65885798rem;
+  height: 0.32942899rem;
+  border: 0.01098097rem solid #ccc;
+  float: left;
+  margin-left: 0.10980966rem;
+  margin-top: 0.21961933rem;
+  text-align: center;
+  line-height: 0.32942899rem;
+  box-sizing: border-box;
+}
+.nav .btn2 a {
+  color: #000;
+}

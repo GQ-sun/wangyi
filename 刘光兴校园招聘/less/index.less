@@ -1,0 +1,92 @@
+.container{
+    padding: 0;
+}
+// @media only screen and(max-width:1920px){
+    // .top {
+    //     width           : 100%;
+    //     height          : 61px;
+    //     background-color: black;
+    
+    //     .top_center {
+    
+    //         img {
+    //             width: 20%;
+    //             height: 60px;
+    //         }
+    //         ul{
+    //             height: 61px;
+    //             width: 80%;
+    //             margin-bottom: 0;
+    //             display: flex;
+    //             justify-content: space-around;
+    //             li{
+    //                 // width: 100%/6;
+    //                 flex: 1;
+    //                 float: left;
+    //                 line-height: 60px;
+    //                 a{
+    //                     color: white;
+    //                     // font-size: 17px;
+    //                     font-weight: 700;
+    //                     white-space: nowrap;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+// }
+
+@number:15;
+@size:1920/@number;
+*{
+    box-sizing: border-box;
+    font-size: 16rem/@size;
+}
+    .top {
+        width           : 100%;
+        height          : 61rem/@size;
+        background-color: black;
+        .top_center {
+            .img_box{
+                width: 20%;
+                height: 61rem/@size;
+            }
+            img {
+                width: 180rem/@size;
+                height: 60rem/@size;
+            }
+            .ul_box{
+                width:80%;
+            }
+            ul{
+                width: 100%;
+                height: 61rem/@size;
+                margin-bottom: 0;
+                display: flex;
+                justify-content: space-around;
+                li{
+                    flex: 1;
+                    // width: 100%/6;
+                    float: left;
+                    line-height: 60rem/@size;
+                    a{
+                        // text-align: center;
+                        color: white;
+                        display: block;
+                        // padding-left: 10rem/@size;
+                        // padding-right: 10rem/@size;
+                        box-sizing: border-box;
+                        // padding: 8rem/@size;
+                        // box-sizing: border-box;
+                        font-size: 14rem/@size;
+                        // font-weight: 700;
+                        // word-break:keep-all;           /* 不换行 */
+                        // white-space:nowrap;          /* 不换行 */
+                        // overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
+                        // text-overflow:ellipsis;         /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+                    }
+                }
+            }
+        }
+    }
+

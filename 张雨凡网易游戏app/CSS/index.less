@@ -1,0 +1,766 @@
+@size: 1920/15;
+
+// 顶部图片
+.tit {
+    width: 1920rem/@size;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: #000;
+
+    img {
+        width: 100%;
+    }
+
+    // 中间盒子
+    .tit_mid {
+        // border: 1rem/@size red solid;
+        width: 800rem/@size;
+        height: 600rem/@size;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 11;
+
+        // 右边手机
+        .mid_right {
+            position: absolute;
+            right: 0;
+            width: 366rem/@size;
+            height: 764rem/@size;
+
+            img {
+                width: 100%;
+            }
+
+            z-index: 12;
+        }
+
+        // 左边区域
+        .mid_left {
+            position: relative;
+
+            #img1 {
+                width: 413rem/@size;
+                height: 168rem/@size;
+                margin-top: 150rem/@size;
+            }
+
+            #img2 {
+                width: 101rem/@size;
+                height: 101rem/@size;
+                border: 10rem/@size #fff solid;
+                position: absolute;
+                top: 350rem/@size;
+                left: 50rem/@size;
+            }
+
+            .apple {
+                display: block;
+                height: 51rem/@size;
+                width: 170rem/@size;
+                overflow: hidden;
+                position: absolute;
+                top: 360rem/@size;
+                left: 200rem/@size;
+
+                #img3 {
+                    width: 379rem/@size;
+                    height: 51rem/@size;
+                }
+            }
+
+            .android {
+                display: block;
+                height: 50rem/@size;
+                width: 170rem/@size;
+                overflow: hidden;
+                position: absolute;
+                top: 420rem/@size;
+                left: 200rem/@size;
+
+                #img4 {
+                    width: 379rem/@size;
+                    height: 50rem/@size;
+                }
+            }
+        }
+    }
+
+}
+
+// 第一个分割线
+.titd1 {
+    width: 100%;
+    position: relative;
+    margin-top: -200rem/@size;
+
+    .hh1 {
+        width: 1920rem/@size;
+    }
+
+    z-index: 10;
+
+    // 文字部分
+    .wz1 {
+        position: absolute;
+        top: 200rem/@size;
+        left: 50%;
+        transform: translate(-50%);
+        width: 393rem/@size;
+        height: 34rem/@size;
+        z-index: 11;
+    }
+
+    // 箭头
+    .jit {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 260rem/@size;
+        // background-color: red;
+        z-index: 11;
+
+        a {
+            display: block;
+            width: 41rem/@size;
+            height: 12rem/@size;
+            animation: d 2s linear infinite;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    // 箭头动画
+    @keyframes d {
+        0% {
+            transform: translateY(0);
+        }
+
+        25% {
+            transform: translateY(-20rem/@size);
+        }
+
+        50% {
+            transform: translateY(0);
+        }
+
+        75% {
+            transform: translateY(-20rem/@size);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
+// 第一个底层图片
+.dc_1 {
+    position: relative;
+    width: 1920rem/@size;
+    height: 695rem/@size;
+    margin-top: -200rem/@size;
+    background: url(../img/bg2_fd8d09f.png) no-repeat center top fixed;
+    overflow: hidden;
+}
+
+// 第二个分割线
+.titd2 {
+    position: relative;
+    margin-top: -200rem/@size;
+
+    img {
+        width: 1920rem/@size;
+    }
+
+    z-index: 10;
+
+    // 中间填充
+    .middle2 {
+        position: absolute;
+        top: 50rem/@size;
+        left: 0;
+        transform: translate(-50%);
+        left: 50%;
+        // border: 1rem/@size red solid;
+        width: 1000rem/@size;
+        height: 500rem/@size;
+        z-index: 11;
+
+        .qjw {
+            width: 485rem/@size;
+            height: 534rem/@size;
+        }
+
+        .sd {
+            position: absolute;
+            left: 450rem/@size;
+            top: 50rem/@size;
+            width: 532rem/@size;
+            height: 193rem/@size;
+        }
+
+        // 第一组小图
+        .xt1 {
+            position: relative;
+            top: -200rem/@size;
+            left: 500rem/@size;
+            // border: 1rem/@size red solid;
+            width: 600rem/@size;
+            height: 120rem/@size;
+
+            .mg1 {
+                width: 91rem/@size;
+                height: 94rem/@size;
+                margin-top: 10rem/@size;
+                margin-right: 80rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg2 {
+                width: 114rem/@size;
+                height: 114rem/@size;
+                margin-right: 80rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg3 {
+                width: 114rem/@size;
+                height: 114rem/@size;
+                margin-right: 80rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+//第二个底层图片
+.dc_2 {
+    width: 1920rem/@size;
+    height: 695rem/@size;
+    margin-top: -200rem/@size;
+    background: url(../img/bg3_5cd2092.png) no-repeat center top fixed;
+
+    img {
+        width: 100%;
+    }
+}
+
+// // 第三个分割线
+.titd3 {
+    position: relative;
+    margin-top: -200rem/@size;
+
+    img {
+        width: 1920rem/@size;
+    }
+
+    z-index: 11;
+
+    .middle3 {
+        position: absolute;
+        top: 85rem/@size;
+        left: 0;
+        transform: translate(-50%);
+        left: 50%;
+        // border: 1rem/@size red solid;
+        width: 1000rem/@size;
+        height: 500rem/@size;
+        z-index: 99;
+
+        .rz2 {
+            width: 514rem/@size;
+            height: 553rem/@size;
+        }
+
+        .sd2 {
+            position: absolute;
+            left: 100rem/@size;
+            top: 50rem/@size;
+            width: 532rem/@size;
+            height: 193rem/@size;
+        }
+
+        // 第二组小图
+        .xt2 {
+            position: relative;
+            top: 300rem/@size;
+            left: 100rem/@size;
+            // border: 1rem/@size red solid;
+            width: 600rem/@size;
+            height: 100rem/@size;
+
+            .mg4 {
+                width: 89rem/@size;
+                height: 82rem/@size;
+                margin-top: 10rem/@size;
+                margin-right: 80rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg5 {
+                width: 99rem/@size;
+                height: 92rem/@size;
+                margin-right: 80rem/@size;
+                margin-top: 10rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg6 {
+                width: 96rem/@size;
+                height: 82rem/@size;
+                // margin-right: 60rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+//第三个底层图片
+.dc_3 {
+    width: 1920rem/@size;
+    height: 695rem/@size;
+    margin-top: -200rem/@size;
+    background: url(../img/bg4_720a48a.png) no-repeat center top fixed;
+
+    img {
+        width: 100%;
+    }
+}
+
+// // 第四个分割线
+.titd4 {
+    position: relative;
+    margin-top: -200rem/@size;
+
+    img {
+        width: 1920rem/@size;
+    }
+
+    z-index: 10;
+
+    .middle4 {
+        position: absolute;
+        top: -8rem/@size;
+        left: 0;
+        transform: translate(-50%);
+        left: 50%;
+        // border: 1rem/@size red solid;
+        width: 1000rem/@size;
+        height: 600rem/@size;
+        z-index: 11;
+
+        .ldk {
+            width: 439rem/@size;
+            height: 595rem/@size;
+        }
+
+        .ys {
+            position: absolute;
+            left: 450rem/@size;
+            top: 150rem/@size;
+            width: 532rem/@size;
+            height: 193rem/@size;
+        }
+
+        // 第三组小图
+        .xt3 {
+            position: relative;
+            top: -200rem/@size;
+            left: 500rem/@size;
+            // border: 1rem/@size red solid;
+            width: 600rem/@size;
+            height: 100rem/@size;
+
+            .mg7 {
+                width: 113rem/@size;
+                height: 113rem/@size;
+                margin-top: 10rem/@size;
+                margin-right: 80rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg8 {
+                width: 113rem/@size;
+                height: 113rem/@size;
+                margin-right: 80rem/@size;
+                margin-top: 10rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg9 {
+                width: 113rem/@size;
+                height: 113rem/@size;
+                margin-right: 60rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 第四个底层图片
+.dc_4 {
+    width: 1920rem/@size;
+    height: 695rem/@size;
+    margin-top: -200rem/@size;
+    background: url(../img/bg5_279a7ff.png) no-repeat center top fixed;
+
+    img {
+        width: 100%;
+    }
+}
+
+// // 第五个分割线
+.titd5 {
+    position: relative;
+    margin-top: -180rem/@size;
+
+    img {
+        width: 1920rem/@size;
+    }
+
+    z-index: 10;
+
+    .middle5 {
+        position: absolute;
+        top: 75rem/@size;
+        left: 0;
+        transform: translate(-50%);
+        left: 50%;
+        // border: 1rem/@size red solid;
+        width: 1000rem/@size;
+        height: 600rem/@size;
+        z-index: 99;
+
+        .rqb {
+            width: 404rem/@size;
+            height: 569rem/@size;
+        }
+
+        .sd3 {
+            position: absolute;
+            left: 40rem/@size;
+            top: 50rem/@size;
+            width: 532rem/@size;
+            height: 193rem/@size;
+        }
+
+        .xt4 {
+            position: relative;
+            top: 300rem/@size;
+            left: 100rem/@size;
+            // border: 1rem/@size red solid;
+            width: 600rem/@size;
+            height: 100rem/@size;
+
+            .mg10 {
+                width: 114rem/@size;
+                height: 114rem/@size;
+                margin-top: 10rem/@size;
+                margin-right: 80rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg11 {
+                width: 114rem/@size;
+                height: 114rem/@size;
+                margin-right: 80rem/@size;
+                margin-top: 10rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .mg12 {
+                width: 114rem/@size;
+                height: 114rem/@size;
+                margin-right: 60rem/@size;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 第五个底层图片
+.dc_5 {
+    width: 1920rem/@size;
+    height: 695rem/@size;
+    margin-top: -220rem/@size;
+    background: url(../img/bg6_473e7d8.png) no-repeat center top;
+
+    .middled5 {
+        // background-color: red;
+        width: 100rem/@size;
+        height: 100rem/@size;
+        position: relative;
+        top: 240rem/@size;
+        left: 40%;
+        transform: translate(-50%);
+
+        // 二维码
+        .img2 {
+            width: 101rem/@size;
+            height: 101rem/@size;
+            border: 10rem/@size #fff solid;
+            position: absolute;
+            left: 50rem/@size;
+        }
+
+        // 苹果下载
+        .apple {
+            display: block;
+            height: 51rem/@size;
+            width: 170rem/@size;
+            overflow: hidden;
+            position: absolute;
+            top: 10rem/@size;
+            left: 200rem/@size;
+
+            .img3 {
+                width: 379rem/@size;
+                height: 51rem/@size;
+            }
+        }
+
+        // 安卓下载
+        .android {
+            display: block;
+            height: 50rem/@size;
+            width: 170rem/@size;
+            overflow: hidden;
+            position: absolute;
+            top: 70rem/@size;
+            left: 200rem/@size;
+
+            .img4 {
+                width: 379rem/@size;
+                height: 50rem/@size;
+            }
+        }
+    }
+
+    // 把好玩的分享给你的朋友
+    .hw {
+        position: relative;
+        transform: translate(-50%);
+        left: 50%;
+        top: 220rem/@size;
+        width: 524rem/@size;
+        height: 54rem/@size;
+    }
+
+    // 精灵图部分
+    .jlt {
+        position: relative;
+        top: 420rem/@size;
+        left: 50%;
+        z-index: 12;
+        transform: translate(-50%);
+        width: 600rem/@size;
+        height: 100rem/@size;
+        // border: 1rem/@size red solid;
+
+        a {
+            margin-left: 85rem/@size;
+        }
+
+        // 微博
+        .j1 {
+            width: 62rem/@size;
+            height: 62rem/@size;
+            background: url(../img/share_dc8d4d0.png) no-repeat left top;
+            background-size: 324rem/@size 142rem/@size;
+        }
+
+        .j1:hover {
+            width: 62rem/@size;
+            height: 62rem/@size;
+            background: url(../img/share_dc8d4d0.png) no-repeat left bottom;
+            background-size: 324rem/@size 142rem/@size;
+        }
+
+        //微信
+        .j2 {
+            width: 62rem/@size;
+            height: 62rem/@size;
+            background: url(../img/share_dc8d4d0.png) no-repeat -131rem/@size top;
+            background-size: 324rem/@size 142rem/@size;
+        }
+
+        .j2:hover {
+            width: 62rem/@size;
+            height: 62rem/@size;
+            background: url(../img/share_dc8d4d0.png) no-repeat -131rem/@size bottom;
+            background-size: 324rem/@size 142rem/@size;
+        }
+
+        // 易信
+        .j3 {
+            width: 62rem/@size;
+            height: 62rem/@size;
+            background: url(../img/share_dc8d4d0.png) no-repeat right top;
+            background-size: 324rem/@size 142rem/@size;
+        }
+
+        .j3:hover {
+            width: 62rem/@size;
+            height: 62rem/@size;
+            background: url(../img/share_dc8d4d0.png) no-repeat right bottom;
+            background-size: 324rem/@size 142rem/@size;
+        }
+    }
+}
+
+//滚动条事件隐藏
+.xt1,
+.xt2,
+.xt3,
+.xt4 {
+    display: none;
+}
+
+// 底部导航
+.foot {
+    margin-top: 100rem/@size;
+    width: 1920rem/@size;
+    height: 300rem/@size;
+    background-color: #000;
+    margin-top: -70rem/@size;
+
+    .middle6 {
+        position: relative;
+        left: 55%;
+        transform: translate(-50%);
+        width: 1000rem/@size;
+
+        // 左边
+        .lef_d1 {
+            height: 31rem/@size;
+
+            .u1 {
+                .dt1 {
+                    display: block;
+                    width: 118rem/@size;
+                    height: 31rem/@size;
+
+                    .img_d1 {
+                        width: 100%;
+                    }
+                }
+
+                .dt2 {
+                    display: block;
+                    width: 134rem/@size;
+                    height: 31rem/@size;
+
+                    .img_d2 {
+                        width: 100%;
+                    }
+                }
+
+                .dt_wen {
+                    display: block;
+                    width: 31rem/@size;
+                    height: 31rem/@size;
+
+                    .img_d3 {
+                        margin: 0 auto;
+                        margin-left: 20rem/@size;
+                        margin-right: 20rem/@size;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .k {
+                margin-left: 50rem/@size;
+            }
+        }
+
+        //下边
+        h5 {
+            margin-top: 10rem/@size;
+        }
+    }
+}
+
+// 返回顶部
+.fh{
+    position: fixed;
+    right: 20rem/@size;
+    bottom: 200rem/@size;
+    z-index: 99;
+    // border: 1rem/@size red solid;
+    border-radius: 10%;
+    input{
+        background-color: red;
+        border-radius: 10%;
+        opacity: 0.3;
+        height: 50rem/@size;
+        width: 100rem/@size;
+        color: blue;
+        font-weight: 700;
+        font-size: 20rem/@size;
+        animation: f 2s linear infinite;
+    }
+}
+@keyframes f {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-20rem/@size);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(-20rem/@size);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+

@@ -1,0 +1,337 @@
+@size:1366/15;
+.banner{
+    position: relative;
+    width: 1366/@size;
+}
+
+// 移动门户招聘
+
+.top_anim{
+    margin: 180rem/@size auto;
+    width: 1000rem/@size;
+    height: 157rem/@size;
+    margin-bottom: 70rem/@size;
+    background: url(../img/h1_title.png) no-repeat center;
+    background-size: 640rem/@size; 
+    transform: scale(1);          
+}
+.animate {
+    animation: donghua 1s linear forwards;
+}
+@keyframes donghua {
+    0%{
+     margin: 220rem/@size auto;
+     opacity: 0;  
+     transform: scale(1); 
+     background-size: 600rem/@size;           
+    }
+    50%{
+    margin: 180rem/@size auto;
+    opacity: 1.2;
+    transform: scale(1.2);
+    background-size: 700rem/@size;
+    }
+    60%{
+    margin: 180rem/@size auto;
+    opacity: 1;
+    transform: scale(1);
+    background-size: 600rem/@size;   
+    }
+    70%{
+    margin: 180rem/@size auto;
+    opacity: 1;
+    transform: scale(1.15);
+       background-size: 700rem/@size;
+    }
+    75%{
+        margin: 180rem/@size auto;
+        opacity: 1;
+        transform: scale(1);
+        background-size: 600rem/@size;
+    }
+    85%{
+    margin: 180rem/@size auto;
+    opacity: 1;
+    transform: scale(1.15);
+    }
+
+    100%{
+    margin: 180rem/@size auto;
+    opacity: 1;
+    transform: scale(1);
+    }
+}
+.anim1 {
+    background: url(../img/v_h1_title.png) no-repeat center;
+    background-size: 640rem/@size; 
+
+
+}
+.p_anim{
+    width: 1000rem/@size;
+    height: 20rem/@size;
+    margin-bottom: 10rem/@size;
+    background: url(../img/v_h3_search.png) no-repeat center;
+    background-size: 200rem/@size; 
+}
+
+
+
+.banner>div{
+    width: 1366rem/@size;
+    height: 100vh;
+    border-top: 2rem/@size solid #000;
+    box-sizing: border-box;
+    position: relative;
+}
+.first_photo{
+    background: url(../img/v_bg_01.jpg) no-repeat -60rem/@size 35rem/@size;
+    background-size: 130% 130vh;
+}
+.second_photo{
+    background: url(../img/v_bg_02.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.three_photo{
+    background: url(../img/v_bg_03.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.four_photo{
+
+    background: url(../img/v_bg_04.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.first_photo_changed{
+    background: url(../img/bg_01.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.second_photo_changed{
+    background: url(../img/bg_02.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.three_photo_changed{
+    background: url(../img/bg_03.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.four_photo_changed{
+    background: url(../img/bg_04.jpg) no-repeat;
+    background-size: 100% 100vh;
+}
+.first_photo .search{
+  width: 820rem/@size;
+  height: 50rem/@size;
+  background-color: #fff;
+  border: 1rem/@size solid skyblue;
+  position: absolute;
+  bottom: 100rem/@size;
+  left: 290rem/@size;
+  cursor: pointer;
+}
+.btn1 {
+    float: left;
+    width: 90rem/@size;
+    height: 50rem/@size;
+    line-height: 50rem/@size;
+    position: relative;
+}
+.search .btn1 p{
+    padding: 11rem/@size;
+    font-size: 20rem/@size;
+    font-family: '微软雅黑';
+}
+.btn1 .down {
+    display: block;
+    width: 18rem/@size;
+    height: 10rem/@size;
+    background: url(../img/arrow.png) no-repeat 0 0;
+    position: absolute;
+    top: 22rem/@size;
+    right: 10rem/@size;
+}
+.list1{
+    width: 90rem/@size;
+    position: absolute;
+    bottom: -200rem/@size;
+    left: 0;
+    background-color: #fff;
+    display: none;
+} 
+.list1 li {
+    height: 25rem/@size;
+    line-height: 25rem/@size;
+    font-size: 14rem/@size;
+    text-align: center;
+}
+.list1 li:hover{
+    background-color: #ccc;
+}
+
+.rotate1{
+    transform: rotate(180deg);
+}
+.btn2 {
+    float: left;
+    width: 90rem/@size;
+    height: 50rem/@size;
+    line-height: 50rem/@size;
+    position: relative;
+}
+.search .btn2 p{
+    padding: 11rem/@size;
+    font-size: 20rem/@size;
+    font-family: '微软雅黑';
+}
+.btn2 .down {
+    display: block;
+    width: 18rem/@size;
+    height: 10rem/@size;
+    background: url(../img/arrow.png) no-repeat 0 0;
+    position: absolute;
+    top: 22rem/@size;
+    right: 10rem/@size;
+}
+.list2{
+    width: 90rem/@size;
+    position: absolute;
+    bottom: -200rem/@size;
+    left: 90rem/@size;
+    background-color: #fff;
+    display: none;
+} 
+.list2 li {
+    height: 25rem/@size;
+    line-height: 25rem/@size;
+    font-size: 14rem/@size;
+    text-align: center;
+}
+.list2 li:hover{
+    background-color: #ccc;
+}
+
+.rotate2{
+    transform: rotateX(180deg);
+}
+.search_input{
+    height:48rem/@size;
+    line-height: 48rem/@size;
+    font-size: 20rem/@size; 
+}
+.search_button{
+    height:100%;
+    width: 10%;
+    line-height: 50rem/@size;
+    font-size: 20rem/@size; 
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.hot_search {
+    position: absolute;
+    bottom: 70rem/@size;
+    left: 570rem/@size;
+}
+.hot_search span {
+    font-size: 16rem/@size;
+    color: #fff;
+    font-family: "微软雅黑";
+}
+.hot_search a {
+    font-size: 16rem/@size;
+    color: #fff;
+    font-family: "微软雅黑";
+    margin-left: 10rem/@size;
+}
+.hot_search a:hover{
+    text-decoration-line: underline;
+}
+// 页尾鼠标
+.mouse-big{
+    position: absolute;
+    left: 50%;
+    bottom: 40rem/@size;
+    margin-left: -35rem/@size;
+    display: none;
+    .mouse-down-icon{
+        width: 70rem/@size;
+        height: 70rem/@size;
+        background: #e60012 url(../img/mousedown_tips.png) no-repeat center 15rem/@size;
+        background-size: 16rem/@size;
+        border-radius: 35rem/@size;
+    }
+    .mouse-down-icon:hover{
+        animation: rotate3 0.2s linear forwards;
+    }
+}
+@keyframes rotate3 {
+    0%{
+      background-position-y: 0;
+    }
+    100%{
+        background-position-y: -90rem/@size;
+        background-color: #fff;
+    }
+}
+
+
+.bots{
+    li{
+        font-size: 30rem/@size;
+        margin-top: 20rem/@size;
+        font-weight: 700;
+        width: 30rem/@size;
+        height: 30rem/@size;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30rem/@size;
+        cursor: pointer;
+    }
+    position: fixed;
+    right: 60rem/@size;
+    top: 200rem/@size;
+    z-index: 1;
+}
+// 小圆点事件
+.current{
+    color: red;
+    size: 40rem/@size;
+    border: 1rem/@size solid rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+}
+
+
+
+// 回到顶部
+
+.return_top{
+    width: 100%;
+    height: 60rem/@size;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 60rem/@size;
+    a{
+      font-size: 14rem/@size;
+      padding-left: 20rem/@size;
+      line-height: 50rem/@size;
+      text-decoration: none;
+      height: 50rem/@size;
+      background: url(../img/netease_logo.png) no-repeat 0 -429rem/@size;
+      background-size: 386rem/@size; 
+    }
+    a:hover{
+        color: #a4acac;
+        text-decoration-line: underline;
+    }
+}
+
+// 开关
+.on_off{
+    width: 80rem/@size;
+    height: 80rem/@size;
+    background: url(../img/scene_trigger.png) no-repeat 0 0;
+    background-size: 80rem/@size;
+    position: absolute;
+    top: 60rem/@size;
+    right: 0;
+    z-index: 1;
+}

@@ -1,0 +1,283 @@
+body {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+.nav {
+  width: 100%;
+  height: 55px;
+  background: white;
+  position: fixed;
+  z-index: 2;
+}
+.nav .list_title {
+  width: 180px;
+  height: 55px;
+  line-height: 55px;
+  background-color: #CF1132;
+  color: white;
+  display: block;
+  padding-left: 75px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: default;
+}
+.nav .list_title i:nth-child(1) {
+  width: 30px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 38px;
+  background-color: white;
+}
+.nav .list_title i:nth-child(2) {
+  width: 30px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 38px;
+  background-color: #ccc;
+}
+.nav .list_title i:nth-child(3) {
+  width: 30px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 34px;
+  left: 38px;
+  background-color: white;
+}
+.nav .nav_list {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 420px;
+  height: 55px;
+}
+.nav .nav_logo {
+  display: block;
+  width: 133px;
+  height: 44px;
+  background: url('../img/logo_b5525b7.png') no-repeat;
+  position: absolute;
+  left: 740px;
+  top: 5px;
+}
+.nav .cz {
+  display: block;
+  width: 138px;
+  height: 55px;
+  line-height: 55px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding-left: 0;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  background-color: white;
+  color: #000;
+}
+.nav .cz1 {
+  display: block;
+  width: 138px;
+  height: 55px;
+  line-height: 55px;
+  position: absolute;
+  top: 55px;
+  right: 0px;
+  padding-left: 0;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  background-color: white;
+  color: #000;
+  display: none;
+}
+.nav .xiala {
+  width: 100%;
+  height: 520px;
+  background-color: #F2F2F2;
+  position: absolute;
+  z-index: 999;
+  top: 50px;
+  display: none;
+  padding-bottom: 20px;
+}
+.nav .xiala .xia_he {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.nav .xiala .xia_he .xiala_list {
+  height: 40px;
+  background-color: #F0EEEF;
+  line-height: 40px;
+}
+.nav .xiala .xia_he .xiala_list li {
+  float: left;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  color: #CF1132;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.nav .xiala .xia_he .xiala_list .li_2 {
+  margin-left: 235px;
+}
+.nav .xiala .xia_he .xiala_list .li_3 {
+  margin-left: 380px;
+}
+.nav .xiala .xia_he .xiala_name {
+  width: 140px;
+  height: 100%;
+  margin-left: 20px;
+}
+.nav .xiala .xia_he .xiala_name p {
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.nav .xiala .xia_he .xiala_name li {
+  width: 140px;
+  height: 27px;
+  position: relative;
+}
+.nav .xiala .xia_he .xiala_name i {
+  display: block;
+  padding: 0px 2px;
+  background-color: #FEE397;
+  position: absolute;
+  right: -6px;
+  top: 0;
+  color: #CF1132;
+  font-size: 12px;
+}
+.nav .xiala .xia_he .xiala_name s {
+  display: block;
+  padding: 0px 2px;
+  background-color: #CF1132;
+  position: absolute;
+  right: -6px;
+  top: 0;
+  color: wheat;
+  font-size: 10px;
+}
+.nav .xiala .xia_he .xiala_name2 {
+  width: 140px;
+  height: 90%;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  border-right: 1px solid #ccc;
+}
+.nav .xiala .xia_he .xiala_name2 p {
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.nav .xiala .xia_he .xiala_name2 li {
+  width: 140px;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+}
+.nav .xiala .xia_he .xiala_name2 i {
+  display: block;
+  padding: 0px 2px;
+  background-color: #FEE397;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  color: #CF1132;
+  font-size: 12px;
+}
+.nav .xiala .xia_he .xiala_name3 {
+  width: 140px;
+  height: 90%;
+  position: absolute;
+  top: 40px;
+  left: 360px;
+  border-right: 1px solid #ccc;
+}
+.nav .xiala .xia_he .xiala_name3 p {
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.nav .xiala .xia_he .xiala_name3 li {
+  width: 140px;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+}
+.nav .xiala .xia_he .xiala_name3 i {
+  display: block;
+  padding: 0px 2px;
+  background-color: #FEE397;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  color: #CF1132;
+  font-size: 12px;
+}
+.nav .xiala .xia_he .xiala_name4 {
+  width: 140px;
+  height: 90%;
+  position: absolute;
+  top: 40px;
+  left: 520px;
+}
+.nav .xiala .xia_he .xiala_name4 p {
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.nav .xiala .xia_he .xiala_name4 li {
+  width: 140px;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+}
+.nav .xiala .xia_he .xiala_name4 i {
+  display: block;
+  padding: 0px 2px;
+  background-color: #FEE397;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  color: #CF1132;
+  font-size: 12px;
+}
+.nav .xiala .xia_he .xiala_name5 {
+  width: 140px;
+  height: 90%;
+  position: absolute;
+  top: 40px;
+  left: 670px;
+}
+.nav .xiala .xia_he .xiala_name5 p {
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.nav .xiala .xia_he .xiala_name5 li {
+  width: 140px;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+}
+.nav .xiala .xia_he .xiala_name5 i {
+  display: block;
+  padding: 0px 2px;
+  background-color: #FEE397;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  color: #CF1132;
+  font-size: 12px;
+}
+.nav .ziliao {
+  position: absolute;
+  left: 180px;
+  top: 55px;
+  display: none;
+}

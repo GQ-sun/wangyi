@@ -1,0 +1,319 @@
+@size:1920/15;
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+// 标题
+.font {
+    position: absolute;
+    top: 20rem/@size;
+    left: -30rem/@size;
+    z-index: 1;
+    img{
+        width: 300rem/@size;
+    }
+}
+
+// 分享区域
+.fenxiang {
+    padding-left: 20rem/@size;
+    width: 165rem/@size;
+    height: 40rem/@size;
+    line-height: 40rem/@size;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 60px;
+    right: 150px;
+    z-index: 1;
+    font-size: 16rem/@size;
+    border-radius: 20rem/@size;
+
+    i {
+        display: block;
+        width: 1px;
+        height: 13rem/@size;
+        background: white;
+        position: absolute;
+        top: 13rem/@size;
+        left: 60rem/@size;
+    }
+
+    .i1 {
+        position: absolute;
+        left: 113rem/@size;
+    }
+
+    li {
+        float: left;
+        margin-right: 20rem/@size;
+
+        a {
+            color: white;
+        }
+
+    }
+}
+
+// 内容区域
+.content {
+    width: 100%;
+    height: 95vh;
+    background: url("../img/bg1_dfa2fa3.jpg") no-repeat;
+    position: relative;
+    top: 46rem/@size;
+    overflow: hidden;
+
+
+    .hcjm {
+        position: absolute;
+        bottom: 20rem/@size;
+        right: 420px;
+        img{
+            width: 799rem/@size;
+        }
+    }
+
+
+    .fylm {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 80rem/@size;
+    }
+
+    .gdsj {
+        position: absolute;
+        bottom: 107rem/@size;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 262rem/@size;
+        height: 31rem/@size;
+        z-index: 1;
+        animation: zd infinite 3s;
+
+        i {
+            display: block;
+            width: 60px;
+            height: 60px;
+            background: url('../img/mouse_afff2c2.png')no-repeat;
+        }
+
+        p {
+            color: white;
+            font-size: 16rem/@size;
+            margin-left: 4rem/@size;
+
+        }
+
+        @keyframes zd {
+            0% {
+                bottom: 107rem/@size;
+            }
+
+            55% {
+                bottom: 127rem/@size;
+            }
+
+            75% {
+                bottom: 117rem/@size
+            }
+
+            100% {
+                bottom: 107rem/@size;
+            }
+
+        }
+    }
+
+}
+
+// 第二个内容区域
+.content2 {
+    width: 100%;
+    height: 95vh;
+    top: 46rem/@size;
+    overflow: hidden;
+    background: url('../img/bg2_f2e2436.jpg')no-repeat;
+    position: relative;
+    display: none;
+
+    .block {
+        display: block;
+    }
+
+    .hcjm {
+        display: block;
+        width: 480rem/@size;
+        height: 200rem/@size;
+        background: url('../img/slogan2_2d67c39.png')no-repeat;
+        position: absolute;
+        left: 35%;
+        top: 35rem/@size;
+    }
+
+    // 手风琴
+    .left {
+        ul {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+            height: 1080rem/@size;
+            width: 68rem/@size;
+            // opacity: 0;
+            text-align: center;
+            background: rgba(238, 204, 150, .15);
+            top: 0rem/@size;
+            margin-left: 30rem/@size;
+            position: relative;
+            overflow: hidden;
+
+            a {
+                display: block;
+                position: relative;
+                width: 68rem/@size;
+                height: 571rem/@size;
+                top: 140rem/@size;
+                z-index: 3;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: none;
+            }
+        }
+
+        li:nth-child(1) {
+            width: 201rem/@size;
+            height: 1080rem/@size;
+
+            img {
+                display: block;
+            }
+        }
+        li:nth-child(4) {
+            float: right;
+            margin-right: 20rem/@size;
+        }
+        li:nth-child(5) {
+            float: right; 
+           
+        }
+    }
+
+    .title{
+        position:absolute;
+        width: 800rem/@size;
+        height: 580rem/@size;
+        left: 500rem/@size;
+        top: 270rem/@size;
+   
+    }
+    .box{
+        width: 635rem/@size;
+        height: 367rem/@size;
+        border: 1rem/@size solid white;
+        top: 100rem/@size;
+        transform: translate(-50%);
+        left: 50%;
+        position: relative;
+        border-radius: 6rem/@size;
+        z-index: 1;
+        img{
+            width: 624rem/@size;
+            height: 356rem/@size;
+        }
+        video{
+            width: 624rem/@size;
+            height: 356rem/@size;
+        }
+    }
+    // 图片展示
+    .zhanshi {
+        width: 624rem/@size;
+        height: 356rem/@size;
+        background-color: red;
+        position: absolute;
+        top: 5rem/@size;
+        transform: translate(-50%);
+        left: 50%;
+        position: relative;
+       z-index: 1;
+      
+    
+        div {
+            position: absolute;
+            top: 0;
+            display: none;
+        }
+
+        div:nth-child(1) {
+            display: block;
+        }
+    }
+    // 剧情
+    .juqing{
+        position: absolute;
+        top: -34rem/@size;
+        left: 236rem/@size;
+        
+        div{
+            position: absolute;
+            top: 0;
+            display: none;
+            img{
+                width: 258rem/@size;
+            }
+        }
+        div:nth-child(1) {
+            display: block;
+        }
+    }
+    // 文字介绍
+    .ziyang{
+        width:600rem/@size;
+        height: 200rem/@size;
+        background: url('../img/downTips_d0881e4.png')no-repeat;
+        background-size: 100%;
+        position: relative;
+        top: 100rem/@size;
+        left: 83rem/@size;
+        text-align: center;
+        p{
+            position: absolute;
+            font-size: 20rem/@size;
+            font-weight: 700;
+            color: white;
+            top: 33rem/@size;
+            left: 218rem/@size;
+            display: none;
+        }
+        p:nth-child(1) {
+            display: block;
+        }
+        p:nth-child(5) {
+            left: 263rem/@size;
+        }
+    }
+}
+
+

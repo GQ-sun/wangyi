@@ -1,0 +1,169 @@
+.nav{
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.nav_left_img{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 45px;
+    background: url(img/netease_logo.png) no-repeat left -41px;
+    top: 21px;
+    display: block;
+}
+.nav_right  ul li a{
+    position: relative;
+    float: left;
+    margin: 0 25px;
+    font-size: 16px;
+    color: #888;
+    line-height: 90px;
+    margin-top: 5px;
+}
+.nav_right  ul li:hover{
+    border-top: 5px solid #c21d35;
+    height: 90px;
+}
+.banner{
+    width: 1920px;
+    height: 711px;
+    background: url(img/bg_banner.jpg) no-repeat 0 0;
+}
+/*  */
+.bd {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 416px;
+    height: 354px;
+    margin-right: -208px;
+    margin-top: -177px;
+    background: rgba(255, 255, 255, 0.9);
+    
+}
+.form {
+    width: 320px;
+    margin: 0 auto;
+}
+.main {
+    height: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.form {
+    width: 320px;
+    margin: 0 auto;
+}
+.form h4 {
+    font-size: 16px;
+    color: #3d3a39;
+    font-weight: normal;
+}
+.form h4 span {
+    color: #d01e32;
+}
+.form input {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    outline: 0;
+    border: 1px solid #aaa;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+    box-shadow: 0 1px 6px #ccc inset;
+    margin-top: 15px;
+}
+.form .submit-btn button {
+    width: 100%;
+    height: 45px;
+    background: #d01e32;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.login-links{
+    font-family: '微软雅黑', serif;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+}
+.fr {
+    float: right;
+}
+/* 底部 */
+.footer {
+    background: #272a2c;
+    color: #ccc;
+    padding: 20px 0;
+    margin-top: 580px;
+}
+
+/* ! */
+.footer1 {
+    width: 865px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer1 .logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    width: 300px
+}
+
+.footer1 .logo a {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.footer1 .logo a.a0 img {
+    padding-right: 0
+}
+
+.footer1 .logo img {
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.footer1 .a-nav {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+
+.footer1 .a-nav i {
+    font-style: normal
+}
+
+.footer1 .a-nav i .i2 {
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.footer1 .a-nav a {
+    text-decoration: none;
+    color: #cf1132;
+}
+
+.footer1 .a-nav a:hover {
+    text-decoration: underline
+}
+
+.footer1 .a-nav .cn1 {
+    padding-left: 18px;
+}
+

@@ -1,0 +1,36 @@
+参考规范：
+图片、css、js都放在网页同一文件夹的子文件夹中（images、css、js）
+
+从外部引入的资源放在lib目录下的子文件夹中（lib/css/bootstrap-4.0.0.css、lib/js/jquery-1.7.2.js），最好在代码中做好标记以便以后修改
+
+css初始化使用我上传的reset.css文件
+
+代码规范参考网易NEC规范： http://nec.netease.com/standard
+
+动效等不会的可以参(fu)考(zhi)网易NEC代码库： http://nec.netease.com/library ，也可以以后补。
+
+类和id的命名不能太简单，要明确
+
+通用的页头和页脚由专人做，使用通用页头、页脚的网页要注意不要产生明明冲突
+
+//会用git的可以试试git版本控制
+各页面的命名与文件结构要按照qq音乐原网站来
+以下页面暂时放在文件里：
+	页头：header.html
+	页脚：footer.html
+	登录弹窗: login.html
+假设页面宽度为1280*800
+播放页要有声音
+
+需要登录的页面只需要做未登录时的样子
+pc下载页面放在download文件夹里
+vip的付费音乐包放在vipportal/fufeibao.html
+vip的等级和活动页面也放在vipportal文件夹里，不必放在子文件夹里
+歌曲页随便挑一个做，放在song.html
+播放页不能是空的，随便放几首歌，不一定要做切歌功能
+右下角的返回顶部、意见反馈、播放器与页脚一起做
+
+按照规定，各网站的图标(favicon)存放在网站根目录，无需在网页中特意说明，浏览器会自动去寻找favicon.ico文件，例如：访问y.qq.com，浏览器会自动使用y.qq.com/favicon.ico作为网页图标。
+
+login.js使用方法：
+login.js的加载应放在页面最后，在需要加载的地方使用链接 javascript:showLogin(); 即可
